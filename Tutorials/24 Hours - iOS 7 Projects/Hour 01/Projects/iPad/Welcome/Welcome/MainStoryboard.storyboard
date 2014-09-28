@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fb4-pj-ipK"/>
+                        <viewControllerLayoutGuide type="bottom" id="QSZ-3d-6O0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="background_ipad.png" translatesAutoresizingMaskIntoConstraints="NO" id="FBQ-Vd-FK0">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to iOS 7 Development" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="383" translatesAutoresizingMaskIntoConstraints="NO" id="6TM-sp-Llc">
+                                <rect key="frame" x="193" y="388" width="383" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="72"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="6TM-sp-Llc" secondAttribute="centerX" id="65n-x8-7qA"/>
+                            <constraint firstItem="FBQ-Vd-FK0" firstAttribute="top" secondItem="5" secondAttribute="top" id="NOT-eM-J5U"/>
+                            <constraint firstAttribute="trailing" secondItem="FBQ-Vd-FK0" secondAttribute="trailing" id="NVu-8d-JPZ"/>
+                            <constraint firstItem="FBQ-Vd-FK0" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" id="Owb-B8-nal"/>
+                            <constraint firstAttribute="centerY" secondItem="6TM-sp-Llc" secondAttribute="centerY" id="TbQ-uB-imc"/>
+                            <constraint firstItem="FBQ-Vd-FK0" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="UWm-Ed-KJw"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="181" y="-168"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background_ipad.png" width="768" height="1024"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

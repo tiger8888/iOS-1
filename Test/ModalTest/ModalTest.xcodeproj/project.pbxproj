@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2719D981982982400C2EB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2719D971982982400C2EB05 /* Foundation.framework */; };
+		A2719D9A1982982400C2EB05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2719D991982982400C2EB05 /* CoreGraphics.framework */; };
+		A2719D9C1982982400C2EB05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2719D9B1982982400C2EB05 /* UIKit.framework */; };
+		A2719DA21982982400C2EB05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2719DA01982982400C2EB05 /* InfoPlist.strings */; };
+		A2719DA41982982400C2EB05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2719DA31982982400C2EB05 /* main.m */; };
+		A2719DA81982982400C2EB05 /* AALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2719DA71982982400C2EB05 /* AALAppDelegate.m */; };
+		A2719DAB1982982400C2EB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2719DA91982982400C2EB05 /* Main.storyboard */; };
+		A2719DAE1982982400C2EB05 /* AALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2719DAD1982982400C2EB05 /* AALViewController.m */; };
+		A2719DB01982982400C2EB05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2719DAF1982982400C2EB05 /* Images.xcassets */; };
+		A2719DB71982982400C2EB05 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2719DB61982982400C2EB05 /* XCTest.framework */; };
+		A2719DB81982982400C2EB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2719D971982982400C2EB05 /* Foundation.framework */; };
+		A2719DB91982982400C2EB05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2719D9B1982982400C2EB05 /* UIKit.framework */; };
+		A2719DC11982982400C2EB05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2719DBF1982982400C2EB05 /* InfoPlist.strings */; };
+		A2719DC31982982400C2EB05 /* ModalTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2719DC21982982400C2EB05 /* ModalTestTests.m */; };
+		A2719DCE198298F900C2EB05 /* AALTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2719DCD198298F900C2EB05 /* AALTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2719DBA1982982400C2EB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2719D8C1982982400C2EB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2719D931982982400C2EB05;
+			remoteInfo = ModalTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2719D941982982400C2EB05 /* ModalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2719D971982982400C2EB05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2719D991982982400C2EB05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2719D9B1982982400C2EB05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2719D9F1982982400C2EB05 /* ModalTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalTest-Info.plist"; sourceTree = "<group>"; };
+		A2719DA11982982400C2EB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2719DA31982982400C2EB05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2719DA51982982400C2EB05 /* ModalTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModalTest-Prefix.pch"; sourceTree = "<group>"; };
+		A2719DA61982982400C2EB05 /* AALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALAppDelegate.h; sourceTree = "<group>"; };
+		A2719DA71982982400C2EB05 /* AALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALAppDelegate.m; sourceTree = "<group>"; };
+		A2719DAA1982982400C2EB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2719DAC1982982400C2EB05 /* AALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALViewController.h; sourceTree = "<group>"; };
+		A2719DAD1982982400C2EB05 /* AALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALViewController.m; sourceTree = "<group>"; };
+		A2719DAF1982982400C2EB05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2719DB51982982400C2EB05 /* ModalTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2719DB61982982400C2EB05 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A2719DBE1982982400C2EB05 /* ModalTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalTestTests-Info.plist"; sourceTree = "<group>"; };
+		A2719DC01982982400C2EB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2719DC21982982400C2EB05 /* ModalTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalTestTests.m; sourceTree = "<group>"; };
+		A2719DCC198298F900C2EB05 /* AALTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALTableViewController.h; sourceTree = "<group>"; };
+		A2719DCD198298F900C2EB05 /* AALTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2719D911982982400C2EB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2719D9A1982982400C2EB05 /* CoreGraphics.framework in Frameworks */,
+				A2719D9C1982982400C2EB05 /* UIKit.framework in Frameworks */,
+				A2719D981982982400C2EB05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2719DB21982982400C2EB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2719DB71982982400C2EB05 /* XCTest.framework in Frameworks */,
+				A2719DB91982982400C2EB05 /* UIKit.framework in Frameworks */,
+				A2719DB81982982400C2EB05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2719D8B1982982400C2EB05 = {
+			isa = PBXGroup;
+			children = (
+				A2719D9D1982982400C2EB05 /* ModalTest */,
+				A2719DBC1982982400C2EB05 /* ModalTestTests */,
+				A2719D961982982400C2EB05 /* Frameworks */,
+				A2719D951982982400C2EB05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2719D951982982400C2EB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2719D941982982400C2EB05 /* ModalTest.app */,
+				A2719DB51982982400C2EB05 /* ModalTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2719D961982982400C2EB05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2719D971982982400C2EB05 /* Foundation.framework */,
+				A2719D991982982400C2EB05 /* CoreGraphics.framework */,
+				A2719D9B1982982400C2EB05 /* UIKit.framework */,
+				A2719DB61982982400C2EB05 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2719D9D1982982400C2EB05 /* ModalTest */ = {
+			isa = PBXGroup;
+			children = (
+				A2719DA61982982400C2EB05 /* AALAppDelegate.h */,
+				A2719DA71982982400C2EB05 /* AALAppDelegate.m */,
+				A2719DA91982982400C2EB05 /* Main.storyboard */,
+				A2719DCC198298F900C2EB05 /* AALTableViewController.h */,
+				A2719DCD198298F900C2EB05 /* AALTableViewController.m */,
+				A2719DAC1982982400C2EB05 /* AALViewController.h */,
+				A2719DAD1982982400C2EB05 /* AALViewController.m */,
+				A2719DAF1982982400C2EB05 /* Images.xcassets */,
+				A2719D9E1982982400C2EB05 /* Supporting Files */,
+			);
+			path = ModalTest;
+			sourceTree = "<group>";
+		};
+		A2719D9E1982982400C2EB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2719D9F1982982400C2EB05 /* ModalTest-Info.plist */,
+				A2719DA01982982400C2EB05 /* InfoPlist.strings */,
+				A2719DA31982982400C2EB05 /* main.m */,
+				A2719DA51982982400C2EB05 /* ModalTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2719DBC1982982400C2EB05 /* ModalTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2719DC21982982400C2EB05 /* ModalTestTests.m */,
+				A2719DBD1982982400C2EB05 /* Supporting Files */,
+			);
+			path = ModalTestTests;
+			sourceTree = "<group>";
+		};
+		A2719DBD1982982400C2EB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2719DBE1982982400C2EB05 /* ModalTestTests-Info.plist */,
+				A2719DBF1982982400C2EB05 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2719D931982982400C2EB05 /* ModalTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2719DC61982982400C2EB05 /* Build configuration list for PBXNativeTarget "ModalTest" */;
+			buildPhases = (
+				A2719D901982982400C2EB05 /* Sources */,
+				A2719D911982982400C2EB05 /* Frameworks */,
+				A2719D921982982400C2EB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalTest;
+			productName = ModalTest;
+			productReference = A2719D941982982400C2EB05 /* ModalTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2719DB41982982400C2EB05 /* ModalTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2719DC91982982400C2EB05 /* Build configuration list for PBXNativeTarget "ModalTestTests" */;
+			buildPhases = (
+				A2719DB11982982400C2EB05 /* Sources */,
+				A2719DB21982982400C2EB05 /* Frameworks */,
+				A2719DB31982982400C2EB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2719DBB1982982400C2EB05 /* PBXTargetDependency */,
+			);
+			name = ModalTestTests;
+			productName = ModalTestTests;
+			productReference = A2719DB51982982400C2EB05 /* ModalTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2719D8C1982982400C2EB05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AAL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Albert Lardizabal";
+				TargetAttributes = {
+					A2719DB41982982400C2EB05 = {
+						TestTargetID = A2719D931982982400C2EB05;
+					};
+				};
+			};
+			buildConfigurationList = A2719D8F1982982400C2EB05 /* Build configuration list for PBXProject "ModalTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2719D8B1982982400C2EB05;
+			productRefGroup = A2719D951982982400C2EB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2719D931982982400C2EB05 /* ModalTest */,
+				A2719DB41982982400C2EB05 /* ModalTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2719D921982982400C2EB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2719DB01982982400C2EB05 /* Images.xcassets in Resources */,
+				A2719DA21982982400C2EB05 /* InfoPlist.strings in Resources */,
+				A2719DAB1982982400C2EB05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2719DB31982982400C2EB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2719DC11982982400C2EB05 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2719D901982982400C2EB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2719DCE198298F900C2EB05 /* AALTableViewController.m in Sources */,
+				A2719DA41982982400C2EB05 /* main.m in Sources */,
+				A2719DA81982982400C2EB05 /* AALAppDelegate.m in Sources */,
+				A2719DAE1982982400C2EB05 /* AALViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2719DB11982982400C2EB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2719DC31982982400C2EB05 /* ModalTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2719DBB1982982400C2EB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2719D931982982400C2EB05 /* ModalTest */;
+			targetProxy = A2719DBA1982982400C2EB05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2719DA01982982400C2EB05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2719DA11982982400C2EB05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2719DA91982982400C2EB05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2719DAA1982982400C2EB05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2719DBF1982982400C2EB05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2719DC01982982400C2EB05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2719DC41982982400C2EB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2719DC51982982400C2EB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2719DC71982982400C2EB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalTest/ModalTest-Prefix.pch";
+				INFOPLIST_FILE = "ModalTest/ModalTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2719DC81982982400C2EB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalTest/ModalTest-Prefix.pch";
+				INFOPLIST_FILE = "ModalTest/ModalTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2719DCA1982982400C2EB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModalTest.app/ModalTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalTest/ModalTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ModalTestTests/ModalTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A2719DCB1982982400C2EB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModalTest.app/ModalTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalTest/ModalTest-Prefix.pch";
+				INFOPLIST_FILE = "ModalTestTests/ModalTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2719D8F1982982400C2EB05 /* Build configuration list for PBXProject "ModalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2719DC41982982400C2EB05 /* Debug */,
+				A2719DC51982982400C2EB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2719DC61982982400C2EB05 /* Build configuration list for PBXNativeTarget "ModalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2719DC71982982400C2EB05 /* Debug */,
+				A2719DC81982982400C2EB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2719DC91982982400C2EB05 /* Build configuration list for PBXNativeTarget "ModalTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2719DCA1982982400C2EB05 /* Debug */,
+				A2719DCB1982982400C2EB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2719D8C1982982400C2EB05 /* Project object */;
+}

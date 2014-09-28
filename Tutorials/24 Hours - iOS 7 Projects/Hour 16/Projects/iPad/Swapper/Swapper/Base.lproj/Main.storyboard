@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A598" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kbu-tK-Hlm"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tzb-SK-O5N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2gZ-qz-jGd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Portrait View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="fpc-KW-hry">
+                                <rect key="frame" x="75" y="268" width="170" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="00t-Ao-psZ"/>
+                                    <constraint firstAttribute="height" constant="32" id="fcU-TY-f1q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.96577171100000003" blue="0.76284725050000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="fpc-KW-hry" secondAttribute="centerX" id="PqE-25-J9Q"/>
+                            <constraint firstAttribute="centerY" secondItem="fpc-KW-hry" secondAttribute="centerY" id="nSw-pa-f4H"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="landscapeView" destination="1P3-42-qrU" id="caG-bY-0CW"/>
+                        <outlet property="portraitView" destination="2gZ-qz-jGd" id="KRn-GY-iwY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="1P3-42-qrU">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="300"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Landscape View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="iQd-rq-9bt">
+                            <rect key="frame" x="195" y="134" width="178" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="Th3-tt-hkn"/>
+                                <constraint firstAttribute="width" constant="178" id="mUZ-5m-r2a"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.77084850940000005" green="1" blue="0.76252612269999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="iQd-rq-9bt" secondAttribute="centerX" id="8dT-NA-c2r"/>
+                        <constraint firstAttribute="centerY" secondItem="iQd-rq-9bt" secondAttribute="centerY" id="X7Z-bM-0V1"/>
+                    </constraints>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </view>
+            </objects>
+        </scene>
+    </scenes>
+</document>

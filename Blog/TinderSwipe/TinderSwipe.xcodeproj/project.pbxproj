@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A25A73A8197F109D00C494BE /* AALOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25A73A7197F109D00C494BE /* AALOverlayView.m */; };
+		A25F24FF197D4AE30080E207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25F24FE197D4AE30080E207 /* Foundation.framework */; };
+		A25F2501197D4AE30080E207 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25F2500197D4AE30080E207 /* CoreGraphics.framework */; };
+		A25F2503197D4AE30080E207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25F2502197D4AE30080E207 /* UIKit.framework */; };
+		A25F2509197D4AE30080E207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A25F2507197D4AE30080E207 /* InfoPlist.strings */; };
+		A25F250B197D4AE30080E207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F250A197D4AE30080E207 /* main.m */; };
+		A25F250F197D4AE30080E207 /* AALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F250E197D4AE30080E207 /* AALAppDelegate.m */; };
+		A25F2512197D4AE30080E207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25F2510197D4AE30080E207 /* Main.storyboard */; };
+		A25F2515197D4AE30080E207 /* AALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F2514197D4AE30080E207 /* AALViewController.m */; };
+		A25F2517197D4AE30080E207 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25F2516197D4AE30080E207 /* Images.xcassets */; };
+		A25F251E197D4AE30080E207 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25F251D197D4AE30080E207 /* XCTest.framework */; };
+		A25F251F197D4AE30080E207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25F24FE197D4AE30080E207 /* Foundation.framework */; };
+		A25F2520197D4AE30080E207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25F2502197D4AE30080E207 /* UIKit.framework */; };
+		A25F2528197D4AE30080E207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A25F2526197D4AE30080E207 /* InfoPlist.strings */; };
+		A25F252A197D4AE30080E207 /* TinderSwipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F2529197D4AE30080E207 /* TinderSwipeTests.m */; };
+		A25F25BF197D9B5C0080E207 /* AALSwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F25BE197D9B5C0080E207 /* AALSwipeView.m */; };
+		A25F25C2197D9BE60080E207 /* AALView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F25C1197D9BE60080E207 /* AALView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A25F2521197D4AE30080E207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A25F24F3197D4AE30080E207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A25F24FA197D4AE30080E207;
+			remoteInfo = TinderSwipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A25A73A6197F109D00C494BE /* AALOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALOverlayView.h; sourceTree = "<group>"; };
+		A25A73A7197F109D00C494BE /* AALOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALOverlayView.m; sourceTree = "<group>"; };
+		A25F24FB197D4AE30080E207 /* TinderSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25F24FE197D4AE30080E207 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A25F2500197D4AE30080E207 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A25F2502197D4AE30080E207 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A25F2506197D4AE30080E207 /* TinderSwipe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TinderSwipe-Info.plist"; sourceTree = "<group>"; };
+		A25F2508197D4AE30080E207 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A25F250A197D4AE30080E207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A25F250C197D4AE30080E207 /* TinderSwipe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinderSwipe-Prefix.pch"; sourceTree = "<group>"; };
+		A25F250D197D4AE30080E207 /* AALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALAppDelegate.h; sourceTree = "<group>"; };
+		A25F250E197D4AE30080E207 /* AALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALAppDelegate.m; sourceTree = "<group>"; };
+		A25F2511197D4AE30080E207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A25F2513197D4AE30080E207 /* AALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALViewController.h; sourceTree = "<group>"; };
+		A25F2514197D4AE30080E207 /* AALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALViewController.m; sourceTree = "<group>"; };
+		A25F2516197D4AE30080E207 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A25F251C197D4AE30080E207 /* TinderSwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderSwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25F251D197D4AE30080E207 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A25F2525197D4AE30080E207 /* TinderSwipeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TinderSwipeTests-Info.plist"; sourceTree = "<group>"; };
+		A25F2527197D4AE30080E207 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A25F2529197D4AE30080E207 /* TinderSwipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinderSwipeTests.m; sourceTree = "<group>"; };
+		A25F25BD197D9B5C0080E207 /* AALSwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALSwipeView.h; sourceTree = "<group>"; };
+		A25F25BE197D9B5C0080E207 /* AALSwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALSwipeView.m; sourceTree = "<group>"; };
+		A25F25C0197D9BE60080E207 /* AALView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALView.h; sourceTree = "<group>"; };
+		A25F25C1197D9BE60080E207 /* AALView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A25F24F8197D4AE30080E207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25F2501197D4AE30080E207 /* CoreGraphics.framework in Frameworks */,
+				A25F2503197D4AE30080E207 /* UIKit.framework in Frameworks */,
+				A25F24FF197D4AE30080E207 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25F2519197D4AE30080E207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25F251E197D4AE30080E207 /* XCTest.framework in Frameworks */,
+				A25F2520197D4AE30080E207 /* UIKit.framework in Frameworks */,
+				A25F251F197D4AE30080E207 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A25F24F2197D4AE30080E207 = {
+			isa = PBXGroup;
+			children = (
+				A25F2504197D4AE30080E207 /* TinderSwipe */,
+				A25F2523197D4AE30080E207 /* TinderSwipeTests */,
+				A25F24FD197D4AE30080E207 /* Frameworks */,
+				A25F24FC197D4AE30080E207 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A25F24FC197D4AE30080E207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A25F24FB197D4AE30080E207 /* TinderSwipe.app */,
+				A25F251C197D4AE30080E207 /* TinderSwipeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A25F24FD197D4AE30080E207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A25F24FE197D4AE30080E207 /* Foundation.framework */,
+				A25F2500197D4AE30080E207 /* CoreGraphics.framework */,
+				A25F2502197D4AE30080E207 /* UIKit.framework */,
+				A25F251D197D4AE30080E207 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A25F2504197D4AE30080E207 /* TinderSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				A25F250D197D4AE30080E207 /* AALAppDelegate.h */,
+				A25F250E197D4AE30080E207 /* AALAppDelegate.m */,
+				A25F25BD197D9B5C0080E207 /* AALSwipeView.h */,
+				A25F25BE197D9B5C0080E207 /* AALSwipeView.m */,
+				A25F25C0197D9BE60080E207 /* AALView.h */,
+				A25F25C1197D9BE60080E207 /* AALView.m */,
+				A25A73A6197F109D00C494BE /* AALOverlayView.h */,
+				A25A73A7197F109D00C494BE /* AALOverlayView.m */,
+				A25F2510197D4AE30080E207 /* Main.storyboard */,
+				A25F2513197D4AE30080E207 /* AALViewController.h */,
+				A25F2514197D4AE30080E207 /* AALViewController.m */,
+				A25F2516197D4AE30080E207 /* Images.xcassets */,
+				A25F2505197D4AE30080E207 /* Supporting Files */,
+			);
+			path = TinderSwipe;
+			sourceTree = "<group>";
+		};
+		A25F2505197D4AE30080E207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A25F2506197D4AE30080E207 /* TinderSwipe-Info.plist */,
+				A25F2507197D4AE30080E207 /* InfoPlist.strings */,
+				A25F250A197D4AE30080E207 /* main.m */,
+				A25F250C197D4AE30080E207 /* TinderSwipe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A25F2523197D4AE30080E207 /* TinderSwipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A25F2529197D4AE30080E207 /* TinderSwipeTests.m */,
+				A25F2524197D4AE30080E207 /* Supporting Files */,
+			);
+			path = TinderSwipeTests;
+			sourceTree = "<group>";
+		};
+		A25F2524197D4AE30080E207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A25F2525197D4AE30080E207 /* TinderSwipeTests-Info.plist */,
+				A25F2526197D4AE30080E207 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A25F24FA197D4AE30080E207 /* TinderSwipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25F252D197D4AE30080E207 /* Build configuration list for PBXNativeTarget "TinderSwipe" */;
+			buildPhases = (
+				A25F24F7197D4AE30080E207 /* Sources */,
+				A25F24F8197D4AE30080E207 /* Frameworks */,
+				A25F24F9197D4AE30080E207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinderSwipe;
+			productName = TinderSwipe;
+			productReference = A25F24FB197D4AE30080E207 /* TinderSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A25F251B197D4AE30080E207 /* TinderSwipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25F2530197D4AE30080E207 /* Build configuration list for PBXNativeTarget "TinderSwipeTests" */;
+			buildPhases = (
+				A25F2518197D4AE30080E207 /* Sources */,
+				A25F2519197D4AE30080E207 /* Frameworks */,
+				A25F251A197D4AE30080E207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A25F2522197D4AE30080E207 /* PBXTargetDependency */,
+			);
+			name = TinderSwipeTests;
+			productName = TinderSwipeTests;
+			productReference = A25F251C197D4AE30080E207 /* TinderSwipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A25F24F3197D4AE30080E207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AAL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Albert Lardizabal";
+				TargetAttributes = {
+					A25F251B197D4AE30080E207 = {
+						TestTargetID = A25F24FA197D4AE30080E207;
+					};
+				};
+			};
+			buildConfigurationList = A25F24F6197D4AE30080E207 /* Build configuration list for PBXProject "TinderSwipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A25F24F2197D4AE30080E207;
+			productRefGroup = A25F24FC197D4AE30080E207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A25F24FA197D4AE30080E207 /* TinderSwipe */,
+				A25F251B197D4AE30080E207 /* TinderSwipeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A25F24F9197D4AE30080E207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25F2517197D4AE30080E207 /* Images.xcassets in Resources */,
+				A25F2509197D4AE30080E207 /* InfoPlist.strings in Resources */,
+				A25F2512197D4AE30080E207 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25F251A197D4AE30080E207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25F2528197D4AE30080E207 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A25F24F7197D4AE30080E207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25F250B197D4AE30080E207 /* main.m in Sources */,
+				A25F250F197D4AE30080E207 /* AALAppDelegate.m in Sources */,
+				A25A73A8197F109D00C494BE /* AALOverlayView.m in Sources */,
+				A25F25BF197D9B5C0080E207 /* AALSwipeView.m in Sources */,
+				A25F25C2197D9BE60080E207 /* AALView.m in Sources */,
+				A25F2515197D4AE30080E207 /* AALViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25F2518197D4AE30080E207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25F252A197D4AE30080E207 /* TinderSwipeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A25F2522197D4AE30080E207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A25F24FA197D4AE30080E207 /* TinderSwipe */;
+			targetProxy = A25F2521197D4AE30080E207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A25F2507197D4AE30080E207 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A25F2508197D4AE30080E207 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A25F2510197D4AE30080E207 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A25F2511197D4AE30080E207 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A25F2526197D4AE30080E207 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A25F2527197D4AE30080E207 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A25F252B197D4AE30080E207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A25F252C197D4AE30080E207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A25F252E197D4AE30080E207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinderSwipe/TinderSwipe-Prefix.pch";
+				INFOPLIST_FILE = "TinderSwipe/TinderSwipe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A25F252F197D4AE30080E207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinderSwipe/TinderSwipe-Prefix.pch";
+				INFOPLIST_FILE = "TinderSwipe/TinderSwipe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A25F2531197D4AE30080E207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TinderSwipe.app/TinderSwipe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinderSwipe/TinderSwipe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TinderSwipeTests/TinderSwipeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A25F2532197D4AE30080E207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TinderSwipe.app/TinderSwipe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinderSwipe/TinderSwipe-Prefix.pch";
+				INFOPLIST_FILE = "TinderSwipeTests/TinderSwipeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A25F24F6197D4AE30080E207 /* Build configuration list for PBXProject "TinderSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25F252B197D4AE30080E207 /* Debug */,
+				A25F252C197D4AE30080E207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25F252D197D4AE30080E207 /* Build configuration list for PBXNativeTarget "TinderSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25F252E197D4AE30080E207 /* Debug */,
+				A25F252F197D4AE30080E207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25F2530197D4AE30080E207 /* Build configuration list for PBXNativeTarget "TinderSwipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25F2531197D4AE30080E207 /* Debug */,
+				A25F2532197D4AE30080E207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A25F24F3197D4AE30080E207 /* Project object */;
+}

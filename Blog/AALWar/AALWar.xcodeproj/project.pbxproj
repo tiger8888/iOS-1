@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2B454F0194E86C900A8FA4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B454EF194E86C900A8FA4A /* Foundation.framework */; };
+		A2B454F2194E86C900A8FA4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B454F1194E86C900A8FA4A /* CoreGraphics.framework */; };
+		A2B454F4194E86C900A8FA4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B454F3194E86C900A8FA4A /* UIKit.framework */; };
+		A2B454FA194E86C900A8FA4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2B454F8194E86C900A8FA4A /* InfoPlist.strings */; };
+		A2B454FC194E86C900A8FA4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B454FB194E86C900A8FA4A /* main.m */; };
+		A2B45500194E86C900A8FA4A /* AALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B454FF194E86C900A8FA4A /* AALAppDelegate.m */; };
+		A2B45502194E86C900A8FA4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B45501194E86C900A8FA4A /* Images.xcassets */; };
+		A2B45509194E86C900A8FA4A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B45508194E86C900A8FA4A /* XCTest.framework */; };
+		A2B4550A194E86C900A8FA4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B454EF194E86C900A8FA4A /* Foundation.framework */; };
+		A2B4550B194E86C900A8FA4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B454F3194E86C900A8FA4A /* UIKit.framework */; };
+		A2B45513194E86C900A8FA4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2B45511194E86C900A8FA4A /* InfoPlist.strings */; };
+		A2B45515194E86C900A8FA4A /* AALWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B45514194E86C900A8FA4A /* AALWarTests.m */; };
+		A2B45520194E885900A8FA4A /* AALDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B4551F194E885900A8FA4A /* AALDeck.m */; };
+		A2B45523194E88DE00A8FA4A /* AALCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B45522194E88DE00A8FA4A /* AALCard.m */; };
+		A2B45526194E8B8A00A8FA4A /* AALWarGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B45525194E8B8A00A8FA4A /* AALWarGame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2B4550C194E86C900A8FA4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2B454E4194E86C900A8FA4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B454EB194E86C900A8FA4A;
+			remoteInfo = AALWar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2B454EC194E86C900A8FA4A /* AALWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AALWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B454EF194E86C900A8FA4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2B454F1194E86C900A8FA4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2B454F3194E86C900A8FA4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2B454F7194E86C900A8FA4A /* AALWar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AALWar-Info.plist"; sourceTree = "<group>"; };
+		A2B454F9194E86C900A8FA4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2B454FB194E86C900A8FA4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2B454FD194E86C900A8FA4A /* AALWar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AALWar-Prefix.pch"; sourceTree = "<group>"; };
+		A2B454FE194E86C900A8FA4A /* AALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALAppDelegate.h; sourceTree = "<group>"; };
+		A2B454FF194E86C900A8FA4A /* AALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALAppDelegate.m; sourceTree = "<group>"; };
+		A2B45501194E86C900A8FA4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2B45507194E86C900A8FA4A /* AALWarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AALWarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B45508194E86C900A8FA4A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A2B45510194E86C900A8FA4A /* AALWarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AALWarTests-Info.plist"; sourceTree = "<group>"; };
+		A2B45512194E86C900A8FA4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2B45514194E86C900A8FA4A /* AALWarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALWarTests.m; sourceTree = "<group>"; };
+		A2B4551E194E885900A8FA4A /* AALDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALDeck.h; sourceTree = "<group>"; };
+		A2B4551F194E885900A8FA4A /* AALDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALDeck.m; sourceTree = "<group>"; };
+		A2B45521194E88DE00A8FA4A /* AALCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALCard.h; sourceTree = "<group>"; };
+		A2B45522194E88DE00A8FA4A /* AALCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALCard.m; sourceTree = "<group>"; };
+		A2B45524194E8B8A00A8FA4A /* AALWarGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALWarGame.h; sourceTree = "<group>"; };
+		A2B45525194E8B8A00A8FA4A /* AALWarGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALWarGame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2B454E9194E86C900A8FA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B454F2194E86C900A8FA4A /* CoreGraphics.framework in Frameworks */,
+				A2B454F4194E86C900A8FA4A /* UIKit.framework in Frameworks */,
+				A2B454F0194E86C900A8FA4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B45504194E86C900A8FA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B45509194E86C900A8FA4A /* XCTest.framework in Frameworks */,
+				A2B4550B194E86C900A8FA4A /* UIKit.framework in Frameworks */,
+				A2B4550A194E86C900A8FA4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2B454E3194E86C900A8FA4A = {
+			isa = PBXGroup;
+			children = (
+				A2B454F5194E86C900A8FA4A /* AALWar */,
+				A2B4550E194E86C900A8FA4A /* AALWarTests */,
+				A2B454EE194E86C900A8FA4A /* Frameworks */,
+				A2B454ED194E86C900A8FA4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2B454ED194E86C900A8FA4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2B454EC194E86C900A8FA4A /* AALWar.app */,
+				A2B45507194E86C900A8FA4A /* AALWarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2B454EE194E86C900A8FA4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2B454EF194E86C900A8FA4A /* Foundation.framework */,
+				A2B454F1194E86C900A8FA4A /* CoreGraphics.framework */,
+				A2B454F3194E86C900A8FA4A /* UIKit.framework */,
+				A2B45508194E86C900A8FA4A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2B454F5194E86C900A8FA4A /* AALWar */ = {
+			isa = PBXGroup;
+			children = (
+				A2B454FE194E86C900A8FA4A /* AALAppDelegate.h */,
+				A2B454FF194E86C900A8FA4A /* AALAppDelegate.m */,
+				A2B45524194E8B8A00A8FA4A /* AALWarGame.h */,
+				A2B45525194E8B8A00A8FA4A /* AALWarGame.m */,
+				A2B45521194E88DE00A8FA4A /* AALCard.h */,
+				A2B45522194E88DE00A8FA4A /* AALCard.m */,
+				A2B4551E194E885900A8FA4A /* AALDeck.h */,
+				A2B4551F194E885900A8FA4A /* AALDeck.m */,
+				A2B45501194E86C900A8FA4A /* Images.xcassets */,
+				A2B454F6194E86C900A8FA4A /* Supporting Files */,
+			);
+			path = AALWar;
+			sourceTree = "<group>";
+		};
+		A2B454F6194E86C900A8FA4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2B454F7194E86C900A8FA4A /* AALWar-Info.plist */,
+				A2B454F8194E86C900A8FA4A /* InfoPlist.strings */,
+				A2B454FB194E86C900A8FA4A /* main.m */,
+				A2B454FD194E86C900A8FA4A /* AALWar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2B4550E194E86C900A8FA4A /* AALWarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2B45514194E86C900A8FA4A /* AALWarTests.m */,
+				A2B4550F194E86C900A8FA4A /* Supporting Files */,
+			);
+			path = AALWarTests;
+			sourceTree = "<group>";
+		};
+		A2B4550F194E86C900A8FA4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2B45510194E86C900A8FA4A /* AALWarTests-Info.plist */,
+				A2B45511194E86C900A8FA4A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2B454EB194E86C900A8FA4A /* AALWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B45518194E86C900A8FA4A /* Build configuration list for PBXNativeTarget "AALWar" */;
+			buildPhases = (
+				A2B454E8194E86C900A8FA4A /* Sources */,
+				A2B454E9194E86C900A8FA4A /* Frameworks */,
+				A2B454EA194E86C900A8FA4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AALWar;
+			productName = AALWar;
+			productReference = A2B454EC194E86C900A8FA4A /* AALWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2B45506194E86C900A8FA4A /* AALWarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B4551B194E86C900A8FA4A /* Build configuration list for PBXNativeTarget "AALWarTests" */;
+			buildPhases = (
+				A2B45503194E86C900A8FA4A /* Sources */,
+				A2B45504194E86C900A8FA4A /* Frameworks */,
+				A2B45505194E86C900A8FA4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B4550D194E86C900A8FA4A /* PBXTargetDependency */,
+			);
+			name = AALWarTests;
+			productName = AALWarTests;
+			productReference = A2B45507194E86C900A8FA4A /* AALWarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2B454E4194E86C900A8FA4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AAL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Albert Lardizabal";
+				TargetAttributes = {
+					A2B45506194E86C900A8FA4A = {
+						TestTargetID = A2B454EB194E86C900A8FA4A;
+					};
+				};
+			};
+			buildConfigurationList = A2B454E7194E86C900A8FA4A /* Build configuration list for PBXProject "AALWar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2B454E3194E86C900A8FA4A;
+			productRefGroup = A2B454ED194E86C900A8FA4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2B454EB194E86C900A8FA4A /* AALWar */,
+				A2B45506194E86C900A8FA4A /* AALWarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2B454EA194E86C900A8FA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B454FA194E86C900A8FA4A /* InfoPlist.strings in Resources */,
+				A2B45502194E86C900A8FA4A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B45505194E86C900A8FA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B45513194E86C900A8FA4A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2B454E8194E86C900A8FA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B45523194E88DE00A8FA4A /* AALCard.m in Sources */,
+				A2B454FC194E86C900A8FA4A /* main.m in Sources */,
+				A2B45526194E8B8A00A8FA4A /* AALWarGame.m in Sources */,
+				A2B45520194E885900A8FA4A /* AALDeck.m in Sources */,
+				A2B45500194E86C900A8FA4A /* AALAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B45503194E86C900A8FA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B45515194E86C900A8FA4A /* AALWarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2B4550D194E86C900A8FA4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B454EB194E86C900A8FA4A /* AALWar */;
+			targetProxy = A2B4550C194E86C900A8FA4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2B454F8194E86C900A8FA4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B454F9194E86C900A8FA4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2B45511194E86C900A8FA4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B45512194E86C900A8FA4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2B45516194E86C900A8FA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2B45517194E86C900A8FA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2B45519194E86C900A8FA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AALWar/AALWar-Prefix.pch";
+				INFOPLIST_FILE = "AALWar/AALWar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2B4551A194E86C900A8FA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AALWar/AALWar-Prefix.pch";
+				INFOPLIST_FILE = "AALWar/AALWar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2B4551C194E86C900A8FA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AALWar.app/AALWar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AALWar/AALWar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AALWarTests/AALWarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A2B4551D194E86C900A8FA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AALWar.app/AALWar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AALWar/AALWar-Prefix.pch";
+				INFOPLIST_FILE = "AALWarTests/AALWarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2B454E7194E86C900A8FA4A /* Build configuration list for PBXProject "AALWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B45516194E86C900A8FA4A /* Debug */,
+				A2B45517194E86C900A8FA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B45518194E86C900A8FA4A /* Build configuration list for PBXNativeTarget "AALWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B45519194E86C900A8FA4A /* Debug */,
+				A2B4551A194E86C900A8FA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2B4551B194E86C900A8FA4A /* Build configuration list for PBXNativeTarget "AALWarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B4551C194E86C900A8FA4A /* Debug */,
+				A2B4551D194E86C900A8FA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2B454E4194E86C900A8FA4A /* Project object */;
+}

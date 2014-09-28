@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A26FE15E19A578020099BB72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26FE15D19A578020099BB72 /* Foundation.framework */; };
+		A26FE16019A578020099BB72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26FE15F19A578020099BB72 /* CoreGraphics.framework */; };
+		A26FE16219A578020099BB72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26FE16119A578020099BB72 /* UIKit.framework */; };
+		A26FE16819A578020099BB72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A26FE16619A578020099BB72 /* InfoPlist.strings */; };
+		A26FE16A19A578020099BB72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A26FE16919A578020099BB72 /* main.m */; };
+		A26FE16E19A578020099BB72 /* AALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A26FE16D19A578020099BB72 /* AALAppDelegate.m */; };
+		A26FE17019A578020099BB72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26FE16F19A578020099BB72 /* Images.xcassets */; };
+		A26FE17719A578020099BB72 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26FE17619A578020099BB72 /* XCTest.framework */; };
+		A26FE17819A578020099BB72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26FE15D19A578020099BB72 /* Foundation.framework */; };
+		A26FE17919A578020099BB72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26FE16119A578020099BB72 /* UIKit.framework */; };
+		A26FE18119A578020099BB72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A26FE17F19A578020099BB72 /* InfoPlist.strings */; };
+		A26FE18319A578020099BB72 /* mathTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A26FE18219A578020099BB72 /* mathTestTests.m */; };
+		A26FE18E19A5781A0099BB72 /* AALMath.m in Sources */ = {isa = PBXBuildFile; fileRef = A26FE18D19A5781A0099BB72 /* AALMath.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A26FE17A19A578020099BB72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A26FE15219A578010099BB72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26FE15919A578020099BB72;
+			remoteInfo = mathTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A26FE15A19A578020099BB72 /* mathTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mathTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26FE15D19A578020099BB72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A26FE15F19A578020099BB72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A26FE16119A578020099BB72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A26FE16519A578020099BB72 /* mathTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mathTest-Info.plist"; sourceTree = "<group>"; };
+		A26FE16719A578020099BB72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A26FE16919A578020099BB72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A26FE16B19A578020099BB72 /* mathTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mathTest-Prefix.pch"; sourceTree = "<group>"; };
+		A26FE16C19A578020099BB72 /* AALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALAppDelegate.h; sourceTree = "<group>"; };
+		A26FE16D19A578020099BB72 /* AALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALAppDelegate.m; sourceTree = "<group>"; };
+		A26FE16F19A578020099BB72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A26FE17519A578020099BB72 /* mathTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26FE17619A578020099BB72 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A26FE17E19A578020099BB72 /* mathTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mathTestTests-Info.plist"; sourceTree = "<group>"; };
+		A26FE18019A578020099BB72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A26FE18219A578020099BB72 /* mathTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mathTestTests.m; sourceTree = "<group>"; };
+		A26FE18C19A5781A0099BB72 /* AALMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALMath.h; sourceTree = "<group>"; };
+		A26FE18D19A5781A0099BB72 /* AALMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALMath.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26FE15719A578020099BB72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26FE16019A578020099BB72 /* CoreGraphics.framework in Frameworks */,
+				A26FE16219A578020099BB72 /* UIKit.framework in Frameworks */,
+				A26FE15E19A578020099BB72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26FE17219A578020099BB72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26FE17719A578020099BB72 /* XCTest.framework in Frameworks */,
+				A26FE17919A578020099BB72 /* UIKit.framework in Frameworks */,
+				A26FE17819A578020099BB72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A26FE15119A578010099BB72 = {
+			isa = PBXGroup;
+			children = (
+				A26FE16319A578020099BB72 /* mathTest */,
+				A26FE17C19A578020099BB72 /* mathTestTests */,
+				A26FE15C19A578020099BB72 /* Frameworks */,
+				A26FE15B19A578020099BB72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A26FE15B19A578020099BB72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26FE15A19A578020099BB72 /* mathTest.app */,
+				A26FE17519A578020099BB72 /* mathTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26FE15C19A578020099BB72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A26FE15D19A578020099BB72 /* Foundation.framework */,
+				A26FE15F19A578020099BB72 /* CoreGraphics.framework */,
+				A26FE16119A578020099BB72 /* UIKit.framework */,
+				A26FE17619A578020099BB72 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A26FE16319A578020099BB72 /* mathTest */ = {
+			isa = PBXGroup;
+			children = (
+				A26FE16C19A578020099BB72 /* AALAppDelegate.h */,
+				A26FE16D19A578020099BB72 /* AALAppDelegate.m */,
+				A26FE18C19A5781A0099BB72 /* AALMath.h */,
+				A26FE18D19A5781A0099BB72 /* AALMath.m */,
+				A26FE16F19A578020099BB72 /* Images.xcassets */,
+				A26FE16419A578020099BB72 /* Supporting Files */,
+			);
+			path = mathTest;
+			sourceTree = "<group>";
+		};
+		A26FE16419A578020099BB72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26FE16519A578020099BB72 /* mathTest-Info.plist */,
+				A26FE16619A578020099BB72 /* InfoPlist.strings */,
+				A26FE16919A578020099BB72 /* main.m */,
+				A26FE16B19A578020099BB72 /* mathTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A26FE17C19A578020099BB72 /* mathTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A26FE18219A578020099BB72 /* mathTestTests.m */,
+				A26FE17D19A578020099BB72 /* Supporting Files */,
+			);
+			path = mathTestTests;
+			sourceTree = "<group>";
+		};
+		A26FE17D19A578020099BB72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26FE17E19A578020099BB72 /* mathTestTests-Info.plist */,
+				A26FE17F19A578020099BB72 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26FE15919A578020099BB72 /* mathTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26FE18619A578020099BB72 /* Build configuration list for PBXNativeTarget "mathTest" */;
+			buildPhases = (
+				A26FE15619A578020099BB72 /* Sources */,
+				A26FE15719A578020099BB72 /* Frameworks */,
+				A26FE15819A578020099BB72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mathTest;
+			productName = mathTest;
+			productReference = A26FE15A19A578020099BB72 /* mathTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A26FE17419A578020099BB72 /* mathTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26FE18919A578020099BB72 /* Build configuration list for PBXNativeTarget "mathTestTests" */;
+			buildPhases = (
+				A26FE17119A578020099BB72 /* Sources */,
+				A26FE17219A578020099BB72 /* Frameworks */,
+				A26FE17319A578020099BB72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26FE17B19A578020099BB72 /* PBXTargetDependency */,
+			);
+			name = mathTestTests;
+			productName = mathTestTests;
+			productReference = A26FE17519A578020099BB72 /* mathTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A26FE15219A578010099BB72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AAL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Albert Lardizabal";
+				TargetAttributes = {
+					A26FE17419A578020099BB72 = {
+						TestTargetID = A26FE15919A578020099BB72;
+					};
+				};
+			};
+			buildConfigurationList = A26FE15519A578010099BB72 /* Build configuration list for PBXProject "mathTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A26FE15119A578010099BB72;
+			productRefGroup = A26FE15B19A578020099BB72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26FE15919A578020099BB72 /* mathTest */,
+				A26FE17419A578020099BB72 /* mathTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26FE15819A578020099BB72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26FE16819A578020099BB72 /* InfoPlist.strings in Resources */,
+				A26FE17019A578020099BB72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26FE17319A578020099BB72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26FE18119A578020099BB72 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26FE15619A578020099BB72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26FE16A19A578020099BB72 /* main.m in Sources */,
+				A26FE18E19A5781A0099BB72 /* AALMath.m in Sources */,
+				A26FE16E19A578020099BB72 /* AALAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26FE17119A578020099BB72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26FE18319A578020099BB72 /* mathTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A26FE17B19A578020099BB72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26FE15919A578020099BB72 /* mathTest */;
+			targetProxy = A26FE17A19A578020099BB72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A26FE16619A578020099BB72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26FE16719A578020099BB72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A26FE17F19A578020099BB72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26FE18019A578020099BB72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A26FE18419A578020099BB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A26FE18519A578020099BB72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A26FE18719A578020099BB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mathTest/mathTest-Prefix.pch";
+				INFOPLIST_FILE = "mathTest/mathTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A26FE18819A578020099BB72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mathTest/mathTest-Prefix.pch";
+				INFOPLIST_FILE = "mathTest/mathTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A26FE18A19A578020099BB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mathTest.app/mathTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mathTest/mathTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "mathTestTests/mathTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A26FE18B19A578020099BB72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mathTest.app/mathTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mathTest/mathTest-Prefix.pch";
+				INFOPLIST_FILE = "mathTestTests/mathTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26FE15519A578010099BB72 /* Build configuration list for PBXProject "mathTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26FE18419A578020099BB72 /* Debug */,
+				A26FE18519A578020099BB72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26FE18619A578020099BB72 /* Build configuration list for PBXNativeTarget "mathTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26FE18719A578020099BB72 /* Debug */,
+				A26FE18819A578020099BB72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A26FE18919A578020099BB72 /* Build configuration list for PBXNativeTarget "mathTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26FE18A19A578020099BB72 /* Debug */,
+				A26FE18B19A578020099BB72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A26FE15219A578010099BB72 /* Project object */;
+}

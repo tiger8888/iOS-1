@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		583773B01B5C4AB2B021F249 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 049994EA280A49BAB2A0D6A2 /* libPods.a */; };
+		A2403A98197C4DA200743E24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2403A97197C4DA200743E24 /* Foundation.framework */; };
+		A2403A9A197C4DA200743E24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2403A99197C4DA200743E24 /* CoreGraphics.framework */; };
+		A2403A9C197C4DA200743E24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2403A9B197C4DA200743E24 /* UIKit.framework */; };
+		A2403AA2197C4DA200743E24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2403AA0197C4DA200743E24 /* InfoPlist.strings */; };
+		A2403AA4197C4DA200743E24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2403AA3197C4DA200743E24 /* main.m */; };
+		A2403AA8197C4DA200743E24 /* AALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2403AA7197C4DA200743E24 /* AALAppDelegate.m */; };
+		A2403AAB197C4DA200743E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2403AA9197C4DA200743E24 /* Main.storyboard */; };
+		A2403AAE197C4DA200743E24 /* AALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2403AAD197C4DA200743E24 /* AALViewController.m */; };
+		A2403AB0197C4DA200743E24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2403AAF197C4DA200743E24 /* Images.xcassets */; };
+		A2403AB7197C4DA200743E24 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2403AB6197C4DA200743E24 /* XCTest.framework */; };
+		A2403AB8197C4DA200743E24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2403A97197C4DA200743E24 /* Foundation.framework */; };
+		A2403AB9197C4DA200743E24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2403A9B197C4DA200743E24 /* UIKit.framework */; };
+		A2403AC1197C4DA200743E24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2403ABF197C4DA200743E24 /* InfoPlist.strings */; };
+		A2403AC3197C4DA200743E24 /* MargaretTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2403AC2197C4DA200743E24 /* MargaretTests.m */; };
+		A2403ACE197C4F4200743E24 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A2403ACD197C4F4200743E24 /* Constants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2403ABA197C4DA200743E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2403A8C197C4DA200743E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2403A93197C4DA200743E24;
+			remoteInfo = Margaret;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049994EA280A49BAB2A0D6A2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1748A25A9C4E48C28394F2D1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A2403A94197C4DA200743E24 /* Margaret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Margaret.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2403A97197C4DA200743E24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2403A99197C4DA200743E24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2403A9B197C4DA200743E24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2403A9F197C4DA200743E24 /* Margaret-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Margaret-Info.plist"; sourceTree = "<group>"; };
+		A2403AA1197C4DA200743E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2403AA3197C4DA200743E24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2403AA5197C4DA200743E24 /* Margaret-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Margaret-Prefix.pch"; sourceTree = "<group>"; };
+		A2403AA6197C4DA200743E24 /* AALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALAppDelegate.h; sourceTree = "<group>"; };
+		A2403AA7197C4DA200743E24 /* AALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALAppDelegate.m; sourceTree = "<group>"; };
+		A2403AAA197C4DA200743E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2403AAC197C4DA200743E24 /* AALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALViewController.h; sourceTree = "<group>"; };
+		A2403AAD197C4DA200743E24 /* AALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALViewController.m; sourceTree = "<group>"; };
+		A2403AAF197C4DA200743E24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2403AB5197C4DA200743E24 /* MargaretTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MargaretTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2403AB6197C4DA200743E24 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A2403ABE197C4DA200743E24 /* MargaretTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MargaretTests-Info.plist"; sourceTree = "<group>"; };
+		A2403AC0197C4DA200743E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2403AC2197C4DA200743E24 /* MargaretTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MargaretTests.m; sourceTree = "<group>"; };
+		A2403ACC197C4F4200743E24 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A2403ACD197C4F4200743E24 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2403A91197C4DA200743E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2403A9A197C4DA200743E24 /* CoreGraphics.framework in Frameworks */,
+				A2403A9C197C4DA200743E24 /* UIKit.framework in Frameworks */,
+				A2403A98197C4DA200743E24 /* Foundation.framework in Frameworks */,
+				583773B01B5C4AB2B021F249 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2403AB2197C4DA200743E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2403AB7197C4DA200743E24 /* XCTest.framework in Frameworks */,
+				A2403AB9197C4DA200743E24 /* UIKit.framework in Frameworks */,
+				A2403AB8197C4DA200743E24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2403A8B197C4DA200743E24 = {
+			isa = PBXGroup;
+			children = (
+				A2403A9D197C4DA200743E24 /* Margaret */,
+				A2403ABC197C4DA200743E24 /* MargaretTests */,
+				A2403A96197C4DA200743E24 /* Frameworks */,
+				A2403A95197C4DA200743E24 /* Products */,
+				1748A25A9C4E48C28394F2D1 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A2403A95197C4DA200743E24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2403A94197C4DA200743E24 /* Margaret.app */,
+				A2403AB5197C4DA200743E24 /* MargaretTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2403A96197C4DA200743E24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2403A97197C4DA200743E24 /* Foundation.framework */,
+				A2403A99197C4DA200743E24 /* CoreGraphics.framework */,
+				A2403A9B197C4DA200743E24 /* UIKit.framework */,
+				A2403AB6197C4DA200743E24 /* XCTest.framework */,
+				049994EA280A49BAB2A0D6A2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2403A9D197C4DA200743E24 /* Margaret */ = {
+			isa = PBXGroup;
+			children = (
+				A2403AA6197C4DA200743E24 /* AALAppDelegate.h */,
+				A2403AA7197C4DA200743E24 /* AALAppDelegate.m */,
+				A2403ACC197C4F4200743E24 /* Constants.h */,
+				A2403ACD197C4F4200743E24 /* Constants.m */,
+				A2403AA9197C4DA200743E24 /* Main.storyboard */,
+				A2403AAC197C4DA200743E24 /* AALViewController.h */,
+				A2403AAD197C4DA200743E24 /* AALViewController.m */,
+				A2403AAF197C4DA200743E24 /* Images.xcassets */,
+				A2403A9E197C4DA200743E24 /* Supporting Files */,
+			);
+			path = Margaret;
+			sourceTree = "<group>";
+		};
+		A2403A9E197C4DA200743E24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2403A9F197C4DA200743E24 /* Margaret-Info.plist */,
+				A2403AA0197C4DA200743E24 /* InfoPlist.strings */,
+				A2403AA3197C4DA200743E24 /* main.m */,
+				A2403AA5197C4DA200743E24 /* Margaret-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2403ABC197C4DA200743E24 /* MargaretTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2403AC2197C4DA200743E24 /* MargaretTests.m */,
+				A2403ABD197C4DA200743E24 /* Supporting Files */,
+			);
+			path = MargaretTests;
+			sourceTree = "<group>";
+		};
+		A2403ABD197C4DA200743E24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2403ABE197C4DA200743E24 /* MargaretTests-Info.plist */,
+				A2403ABF197C4DA200743E24 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2403A93197C4DA200743E24 /* Margaret */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2403AC6197C4DA200743E24 /* Build configuration list for PBXNativeTarget "Margaret" */;
+			buildPhases = (
+				31B093BACFF942E99D090D54 /* Check Pods Manifest.lock */,
+				A2403A90197C4DA200743E24 /* Sources */,
+				A2403A91197C4DA200743E24 /* Frameworks */,
+				A2403A92197C4DA200743E24 /* Resources */,
+				B7693404AE1C40C88D19BB5A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Margaret;
+			productName = Margaret;
+			productReference = A2403A94197C4DA200743E24 /* Margaret.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2403AB4197C4DA200743E24 /* MargaretTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2403AC9197C4DA200743E24 /* Build configuration list for PBXNativeTarget "MargaretTests" */;
+			buildPhases = (
+				A2403AB1197C4DA200743E24 /* Sources */,
+				A2403AB2197C4DA200743E24 /* Frameworks */,
+				A2403AB3197C4DA200743E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2403ABB197C4DA200743E24 /* PBXTargetDependency */,
+			);
+			name = MargaretTests;
+			productName = MargaretTests;
+			productReference = A2403AB5197C4DA200743E24 /* MargaretTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2403A8C197C4DA200743E24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AAL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Albert Lardizabal";
+				TargetAttributes = {
+					A2403AB4197C4DA200743E24 = {
+						TestTargetID = A2403A93197C4DA200743E24;
+					};
+				};
+			};
+			buildConfigurationList = A2403A8F197C4DA200743E24 /* Build configuration list for PBXProject "Margaret" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2403A8B197C4DA200743E24;
+			productRefGroup = A2403A95197C4DA200743E24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2403A93197C4DA200743E24 /* Margaret */,
+				A2403AB4197C4DA200743E24 /* MargaretTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2403A92197C4DA200743E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2403AB0197C4DA200743E24 /* Images.xcassets in Resources */,
+				A2403AA2197C4DA200743E24 /* InfoPlist.strings in Resources */,
+				A2403AAB197C4DA200743E24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2403AB3197C4DA200743E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2403AC1197C4DA200743E24 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31B093BACFF942E99D090D54 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7693404AE1C40C88D19BB5A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2403A90197C4DA200743E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2403AA4197C4DA200743E24 /* main.m in Sources */,
+				A2403AA8197C4DA200743E24 /* AALAppDelegate.m in Sources */,
+				A2403AAE197C4DA200743E24 /* AALViewController.m in Sources */,
+				A2403ACE197C4F4200743E24 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2403AB1197C4DA200743E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2403AC3197C4DA200743E24 /* MargaretTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2403ABB197C4DA200743E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2403A93197C4DA200743E24 /* Margaret */;
+			targetProxy = A2403ABA197C4DA200743E24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2403AA0197C4DA200743E24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2403AA1197C4DA200743E24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2403AA9197C4DA200743E24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2403AAA197C4DA200743E24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2403ABF197C4DA200743E24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2403AC0197C4DA200743E24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2403AC4197C4DA200743E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2403AC5197C4DA200743E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2403AC7197C4DA200743E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1748A25A9C4E48C28394F2D1 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Margaret/Margaret-Prefix.pch";
+				INFOPLIST_FILE = "Margaret/Margaret-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2403AC8197C4DA200743E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1748A25A9C4E48C28394F2D1 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Margaret/Margaret-Prefix.pch";
+				INFOPLIST_FILE = "Margaret/Margaret-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2403ACA197C4DA200743E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Margaret.app/Margaret";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Margaret/Margaret-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MargaretTests/MargaretTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A2403ACB197C4DA200743E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Margaret.app/Margaret";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Margaret/Margaret-Prefix.pch";
+				INFOPLIST_FILE = "MargaretTests/MargaretTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2403A8F197C4DA200743E24 /* Build configuration list for PBXProject "Margaret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2403AC4197C4DA200743E24 /* Debug */,
+				A2403AC5197C4DA200743E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2403AC6197C4DA200743E24 /* Build configuration list for PBXNativeTarget "Margaret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2403AC7197C4DA200743E24 /* Debug */,
+				A2403AC8197C4DA200743E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2403AC9197C4DA200743E24 /* Build configuration list for PBXNativeTarget "MargaretTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2403ACA197C4DA200743E24 /* Debug */,
+				A2403ACB197C4DA200743E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2403A8C197C4DA200743E24 /* Project object */;
+}

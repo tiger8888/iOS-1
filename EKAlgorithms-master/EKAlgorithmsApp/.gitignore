@@ -1,0 +1,9 @@
+Build/
+Pods/
+Podfile.lock
+
+DerivedData
+.idea/
+
+EKAlgorithmsApp.xcworkspace/xcuserdata/
+EKAlgorithmsApp.xcworkspace/xcshareddata/

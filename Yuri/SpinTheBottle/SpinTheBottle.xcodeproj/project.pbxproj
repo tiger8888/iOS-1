@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A272836E19AD6EF60097F6FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A272836D19AD6EF60097F6FB /* Foundation.framework */; };
+		A272837019AD6EF60097F6FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A272836F19AD6EF60097F6FB /* CoreGraphics.framework */; };
+		A272837219AD6EF60097F6FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A272837119AD6EF60097F6FB /* UIKit.framework */; };
+		A272837819AD6EF60097F6FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A272837619AD6EF60097F6FB /* InfoPlist.strings */; };
+		A272837A19AD6EF60097F6FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A272837919AD6EF60097F6FB /* main.m */; };
+		A272837E19AD6EF60097F6FB /* AALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A272837D19AD6EF60097F6FB /* AALAppDelegate.m */; };
+		A272838119AD6EF60097F6FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A272837F19AD6EF60097F6FB /* Main.storyboard */; };
+		A272838419AD6EF60097F6FB /* AALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A272838319AD6EF60097F6FB /* AALViewController.m */; };
+		A272838619AD6EF60097F6FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A272838519AD6EF60097F6FB /* Images.xcassets */; };
+		A272838D19AD6EF60097F6FB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A272838C19AD6EF60097F6FB /* XCTest.framework */; };
+		A272838E19AD6EF60097F6FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A272836D19AD6EF60097F6FB /* Foundation.framework */; };
+		A272838F19AD6EF60097F6FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A272837119AD6EF60097F6FB /* UIKit.framework */; };
+		A272839719AD6EF60097F6FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A272839519AD6EF60097F6FB /* InfoPlist.strings */; };
+		A272839919AD6EF60097F6FB /* SpinTheBottleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A272839819AD6EF60097F6FB /* SpinTheBottleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A272839019AD6EF60097F6FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A272836219AD6EF60097F6FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A272836919AD6EF60097F6FB;
+			remoteInfo = SpinTheBottle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A272836A19AD6EF60097F6FB /* SpinTheBottle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinTheBottle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A272836D19AD6EF60097F6FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A272836F19AD6EF60097F6FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A272837119AD6EF60097F6FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A272837519AD6EF60097F6FB /* SpinTheBottle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpinTheBottle-Info.plist"; sourceTree = "<group>"; };
+		A272837719AD6EF60097F6FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A272837919AD6EF60097F6FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A272837B19AD6EF60097F6FB /* SpinTheBottle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpinTheBottle-Prefix.pch"; sourceTree = "<group>"; };
+		A272837C19AD6EF60097F6FB /* AALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALAppDelegate.h; sourceTree = "<group>"; };
+		A272837D19AD6EF60097F6FB /* AALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALAppDelegate.m; sourceTree = "<group>"; };
+		A272838019AD6EF60097F6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A272838219AD6EF60097F6FB /* AALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALViewController.h; sourceTree = "<group>"; };
+		A272838319AD6EF60097F6FB /* AALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALViewController.m; sourceTree = "<group>"; };
+		A272838519AD6EF60097F6FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A272838B19AD6EF60097F6FB /* SpinTheBottleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinTheBottleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A272838C19AD6EF60097F6FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A272839419AD6EF60097F6FB /* SpinTheBottleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpinTheBottleTests-Info.plist"; sourceTree = "<group>"; };
+		A272839619AD6EF60097F6FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A272839819AD6EF60097F6FB /* SpinTheBottleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinTheBottleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A272836719AD6EF60097F6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A272837019AD6EF60097F6FB /* CoreGraphics.framework in Frameworks */,
+				A272837219AD6EF60097F6FB /* UIKit.framework in Frameworks */,
+				A272836E19AD6EF60097F6FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A272838819AD6EF60097F6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A272838D19AD6EF60097F6FB /* XCTest.framework in Frameworks */,
+				A272838F19AD6EF60097F6FB /* UIKit.framework in Frameworks */,
+				A272838E19AD6EF60097F6FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A272836119AD6EF60097F6FB = {
+			isa = PBXGroup;
+			children = (
+				A272837319AD6EF60097F6FB /* SpinTheBottle */,
+				A272839219AD6EF60097F6FB /* SpinTheBottleTests */,
+				A272836C19AD6EF60097F6FB /* Frameworks */,
+				A272836B19AD6EF60097F6FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A272836B19AD6EF60097F6FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A272836A19AD6EF60097F6FB /* SpinTheBottle.app */,
+				A272838B19AD6EF60097F6FB /* SpinTheBottleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A272836C19AD6EF60097F6FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A272836D19AD6EF60097F6FB /* Foundation.framework */,
+				A272836F19AD6EF60097F6FB /* CoreGraphics.framework */,
+				A272837119AD6EF60097F6FB /* UIKit.framework */,
+				A272838C19AD6EF60097F6FB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A272837319AD6EF60097F6FB /* SpinTheBottle */ = {
+			isa = PBXGroup;
+			children = (
+				A272837C19AD6EF60097F6FB /* AALAppDelegate.h */,
+				A272837D19AD6EF60097F6FB /* AALAppDelegate.m */,
+				A272837F19AD6EF60097F6FB /* Main.storyboard */,
+				A272838219AD6EF60097F6FB /* AALViewController.h */,
+				A272838319AD6EF60097F6FB /* AALViewController.m */,
+				A272838519AD6EF60097F6FB /* Images.xcassets */,
+				A272837419AD6EF60097F6FB /* Supporting Files */,
+			);
+			path = SpinTheBottle;
+			sourceTree = "<group>";
+		};
+		A272837419AD6EF60097F6FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A272837519AD6EF60097F6FB /* SpinTheBottle-Info.plist */,
+				A272837619AD6EF60097F6FB /* InfoPlist.strings */,
+				A272837919AD6EF60097F6FB /* main.m */,
+				A272837B19AD6EF60097F6FB /* SpinTheBottle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A272839219AD6EF60097F6FB /* SpinTheBottleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A272839819AD6EF60097F6FB /* SpinTheBottleTests.m */,
+				A272839319AD6EF60097F6FB /* Supporting Files */,
+			);
+			path = SpinTheBottleTests;
+			sourceTree = "<group>";
+		};
+		A272839319AD6EF60097F6FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A272839419AD6EF60097F6FB /* SpinTheBottleTests-Info.plist */,
+				A272839519AD6EF60097F6FB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A272836919AD6EF60097F6FB /* SpinTheBottle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A272839C19AD6EF60097F6FB /* Build configuration list for PBXNativeTarget "SpinTheBottle" */;
+			buildPhases = (
+				A272836619AD6EF60097F6FB /* Sources */,
+				A272836719AD6EF60097F6FB /* Frameworks */,
+				A272836819AD6EF60097F6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinTheBottle;
+			productName = SpinTheBottle;
+			productReference = A272836A19AD6EF60097F6FB /* SpinTheBottle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A272838A19AD6EF60097F6FB /* SpinTheBottleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A272839F19AD6EF60097F6FB /* Build configuration list for PBXNativeTarget "SpinTheBottleTests" */;
+			buildPhases = (
+				A272838719AD6EF60097F6FB /* Sources */,
+				A272838819AD6EF60097F6FB /* Frameworks */,
+				A272838919AD6EF60097F6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A272839119AD6EF60097F6FB /* PBXTargetDependency */,
+			);
+			name = SpinTheBottleTests;
+			productName = SpinTheBottleTests;
+			productReference = A272838B19AD6EF60097F6FB /* SpinTheBottleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A272836219AD6EF60097F6FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AAL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Albert Lardizabal";
+				TargetAttributes = {
+					A272838A19AD6EF60097F6FB = {
+						TestTargetID = A272836919AD6EF60097F6FB;
+					};
+				};
+			};
+			buildConfigurationList = A272836519AD6EF60097F6FB /* Build configuration list for PBXProject "SpinTheBottle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A272836119AD6EF60097F6FB;
+			productRefGroup = A272836B19AD6EF60097F6FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A272836919AD6EF60097F6FB /* SpinTheBottle */,
+				A272838A19AD6EF60097F6FB /* SpinTheBottleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A272836819AD6EF60097F6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A272838619AD6EF60097F6FB /* Images.xcassets in Resources */,
+				A272837819AD6EF60097F6FB /* InfoPlist.strings in Resources */,
+				A272838119AD6EF60097F6FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A272838919AD6EF60097F6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A272839719AD6EF60097F6FB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A272836619AD6EF60097F6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A272837A19AD6EF60097F6FB /* main.m in Sources */,
+				A272837E19AD6EF60097F6FB /* AALAppDelegate.m in Sources */,
+				A272838419AD6EF60097F6FB /* AALViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A272838719AD6EF60097F6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A272839919AD6EF60097F6FB /* SpinTheBottleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A272839119AD6EF60097F6FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A272836919AD6EF60097F6FB /* SpinTheBottle */;
+			targetProxy = A272839019AD6EF60097F6FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A272837619AD6EF60097F6FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A272837719AD6EF60097F6FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A272837F19AD6EF60097F6FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A272838019AD6EF60097F6FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A272839519AD6EF60097F6FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A272839619AD6EF60097F6FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A272839A19AD6EF60097F6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A272839B19AD6EF60097F6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A272839D19AD6EF60097F6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinTheBottle/SpinTheBottle-Prefix.pch";
+				INFOPLIST_FILE = "SpinTheBottle/SpinTheBottle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A272839E19AD6EF60097F6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinTheBottle/SpinTheBottle-Prefix.pch";
+				INFOPLIST_FILE = "SpinTheBottle/SpinTheBottle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A27283A019AD6EF60097F6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpinTheBottle.app/SpinTheBottle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinTheBottle/SpinTheBottle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpinTheBottleTests/SpinTheBottleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A27283A119AD6EF60097F6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpinTheBottle.app/SpinTheBottle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinTheBottle/SpinTheBottle-Prefix.pch";
+				INFOPLIST_FILE = "SpinTheBottleTests/SpinTheBottleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A272836519AD6EF60097F6FB /* Build configuration list for PBXProject "SpinTheBottle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A272839A19AD6EF60097F6FB /* Debug */,
+				A272839B19AD6EF60097F6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A272839C19AD6EF60097F6FB /* Build configuration list for PBXNativeTarget "SpinTheBottle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A272839D19AD6EF60097F6FB /* Debug */,
+				A272839E19AD6EF60097F6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A272839F19AD6EF60097F6FB /* Build configuration list for PBXNativeTarget "SpinTheBottleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27283A019AD6EF60097F6FB /* Debug */,
+				A27283A119AD6EF60097F6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A272836219AD6EF60097F6FB /* Project object */;
+}

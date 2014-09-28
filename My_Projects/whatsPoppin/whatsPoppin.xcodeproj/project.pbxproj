@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A5B2A263E7A489D83031D94 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38748C19616E47DA9ECCEF3B /* libPods.a */; };
+		A26326B519802B0400174569 /* AALConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A26326B419802B0400174569 /* AALConstants.m */; };
+		A265408619870739006E923A /* AALCoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A265408519870739006E923A /* AALCoverFlowLayout.m */; };
+		A27603AD1980878B00E16B5B /* AALCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A27603AC1980878B00E16B5B /* AALCell.m */; };
+		A276586C198644290080DA89 /* AALDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A276586B198644290080DA89 /* AALDetailViewController.m */; };
+		A27A7B59197192DD004E26BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27A7B58197192DD004E26BF /* Foundation.framework */; };
+		A27A7B5B197192DD004E26BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27A7B5A197192DD004E26BF /* CoreGraphics.framework */; };
+		A27A7B5D197192DD004E26BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27A7B5C197192DD004E26BF /* UIKit.framework */; };
+		A27A7B63197192DD004E26BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A27A7B61197192DD004E26BF /* InfoPlist.strings */; };
+		A27A7B65197192DD004E26BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A27A7B64197192DD004E26BF /* main.m */; };
+		A27A7B69197192DD004E26BF /* AALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A27A7B68197192DD004E26BF /* AALAppDelegate.m */; };
+		A27A7B6C197192DD004E26BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27A7B6A197192DD004E26BF /* Main.storyboard */; };
+		A27A7B6F197192DD004E26BF /* AALCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27A7B6E197192DD004E26BF /* AALCollectionViewController.m */; };
+		A27A7B71197192DD004E26BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27A7B70197192DD004E26BF /* Images.xcassets */; };
+		A27A7B78197192DD004E26BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27A7B77197192DD004E26BF /* XCTest.framework */; };
+		A27A7B79197192DD004E26BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27A7B58197192DD004E26BF /* Foundation.framework */; };
+		A27A7B7A197192DD004E26BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27A7B5C197192DD004E26BF /* UIKit.framework */; };
+		A27A7B82197192DD004E26BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A27A7B80197192DD004E26BF /* InfoPlist.strings */; };
+		A27A7B84197192DD004E26BF /* whatsPoppinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27A7B83197192DD004E26BF /* whatsPoppinTests.m */; };
+		A29980AA1986972B0015E6C4 /* AALMasonryLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A29980A91986972B0015E6C4 /* AALMasonryLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A27A7B7B197192DD004E26BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27A7B4D197192DD004E26BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27A7B54197192DD004E26BF;
+			remoteInfo = whatsPoppin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38748C19616E47DA9ECCEF3B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26326B319802B0400174569 /* AALConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALConstants.h; sourceTree = "<group>"; };
+		A26326B419802B0400174569 /* AALConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALConstants.m; sourceTree = "<group>"; };
+		A265408419870739006E923A /* AALCoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALCoverFlowLayout.h; sourceTree = "<group>"; };
+		A265408519870739006E923A /* AALCoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALCoverFlowLayout.m; sourceTree = "<group>"; };
+		A27603AB1980878B00E16B5B /* AALCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALCell.h; sourceTree = "<group>"; };
+		A27603AC1980878B00E16B5B /* AALCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALCell.m; sourceTree = "<group>"; };
+		A276586A198644290080DA89 /* AALDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALDetailViewController.h; sourceTree = "<group>"; };
+		A276586B198644290080DA89 /* AALDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALDetailViewController.m; sourceTree = "<group>"; };
+		A27A7B55197192DD004E26BF /* whatsPoppin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whatsPoppin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27A7B58197192DD004E26BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A27A7B5A197192DD004E26BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A27A7B5C197192DD004E26BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A27A7B60197192DD004E26BF /* whatsPoppin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "whatsPoppin-Info.plist"; sourceTree = "<group>"; };
+		A27A7B62197192DD004E26BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A27A7B64197192DD004E26BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A27A7B66197192DD004E26BF /* whatsPoppin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "whatsPoppin-Prefix.pch"; sourceTree = "<group>"; };
+		A27A7B67197192DD004E26BF /* AALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALAppDelegate.h; sourceTree = "<group>"; };
+		A27A7B68197192DD004E26BF /* AALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALAppDelegate.m; sourceTree = "<group>"; };
+		A27A7B6B197192DD004E26BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27A7B6D197192DD004E26BF /* AALCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALCollectionViewController.h; sourceTree = "<group>"; };
+		A27A7B6E197192DD004E26BF /* AALCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALCollectionViewController.m; sourceTree = "<group>"; };
+		A27A7B70197192DD004E26BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A27A7B76197192DD004E26BF /* whatsPoppinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whatsPoppinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27A7B77197192DD004E26BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A27A7B7F197192DD004E26BF /* whatsPoppinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "whatsPoppinTests-Info.plist"; sourceTree = "<group>"; };
+		A27A7B81197192DD004E26BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A27A7B83197192DD004E26BF /* whatsPoppinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = whatsPoppinTests.m; sourceTree = "<group>"; };
+		A29980A81986972B0015E6C4 /* AALMasonryLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALMasonryLayout.h; sourceTree = "<group>"; };
+		A29980A91986972B0015E6C4 /* AALMasonryLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALMasonryLayout.m; sourceTree = "<group>"; };
+		C7C9D3D3ADCA4AA09860C92A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27A7B52197192DD004E26BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27A7B5B197192DD004E26BF /* CoreGraphics.framework in Frameworks */,
+				A27A7B5D197192DD004E26BF /* UIKit.framework in Frameworks */,
+				A27A7B59197192DD004E26BF /* Foundation.framework in Frameworks */,
+				5A5B2A263E7A489D83031D94 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27A7B73197192DD004E26BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27A7B78197192DD004E26BF /* XCTest.framework in Frameworks */,
+				A27A7B7A197192DD004E26BF /* UIKit.framework in Frameworks */,
+				A27A7B79197192DD004E26BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27A7B4C197192DD004E26BF = {
+			isa = PBXGroup;
+			children = (
+				A27A7B5E197192DD004E26BF /* whatsPoppin */,
+				A27A7B7D197192DD004E26BF /* whatsPoppinTests */,
+				A27A7B57197192DD004E26BF /* Frameworks */,
+				A27A7B56197192DD004E26BF /* Products */,
+				C7C9D3D3ADCA4AA09860C92A /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A27A7B56197192DD004E26BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27A7B55197192DD004E26BF /* whatsPoppin.app */,
+				A27A7B76197192DD004E26BF /* whatsPoppinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27A7B57197192DD004E26BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A27A7B58197192DD004E26BF /* Foundation.framework */,
+				A27A7B5A197192DD004E26BF /* CoreGraphics.framework */,
+				A27A7B5C197192DD004E26BF /* UIKit.framework */,
+				A27A7B77197192DD004E26BF /* XCTest.framework */,
+				38748C19616E47DA9ECCEF3B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A27A7B5E197192DD004E26BF /* whatsPoppin */ = {
+			isa = PBXGroup;
+			children = (
+				A27A7B67197192DD004E26BF /* AALAppDelegate.h */,
+				A27A7B68197192DD004E26BF /* AALAppDelegate.m */,
+				A27A7B6A197192DD004E26BF /* Main.storyboard */,
+				A265408419870739006E923A /* AALCoverFlowLayout.h */,
+				A265408519870739006E923A /* AALCoverFlowLayout.m */,
+				A276586A198644290080DA89 /* AALDetailViewController.h */,
+				A276586B198644290080DA89 /* AALDetailViewController.m */,
+				A27603AB1980878B00E16B5B /* AALCell.h */,
+				A27603AC1980878B00E16B5B /* AALCell.m */,
+				A26326B319802B0400174569 /* AALConstants.h */,
+				A26326B419802B0400174569 /* AALConstants.m */,
+				A27A7B6D197192DD004E26BF /* AALCollectionViewController.h */,
+				A27A7B6E197192DD004E26BF /* AALCollectionViewController.m */,
+				A29980A81986972B0015E6C4 /* AALMasonryLayout.h */,
+				A29980A91986972B0015E6C4 /* AALMasonryLayout.m */,
+				A27A7B70197192DD004E26BF /* Images.xcassets */,
+				A27A7B5F197192DD004E26BF /* Supporting Files */,
+			);
+			path = whatsPoppin;
+			sourceTree = "<group>";
+		};
+		A27A7B5F197192DD004E26BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A27A7B60197192DD004E26BF /* whatsPoppin-Info.plist */,
+				A27A7B61197192DD004E26BF /* InfoPlist.strings */,
+				A27A7B64197192DD004E26BF /* main.m */,
+				A27A7B66197192DD004E26BF /* whatsPoppin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A27A7B7D197192DD004E26BF /* whatsPoppinTests */ = {
+			isa = PBXGroup;
+			children = (
+				A27A7B83197192DD004E26BF /* whatsPoppinTests.m */,
+				A27A7B7E197192DD004E26BF /* Supporting Files */,
+			);
+			path = whatsPoppinTests;
+			sourceTree = "<group>";
+		};
+		A27A7B7E197192DD004E26BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A27A7B7F197192DD004E26BF /* whatsPoppinTests-Info.plist */,
+				A27A7B80197192DD004E26BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27A7B54197192DD004E26BF /* whatsPoppin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27A7B87197192DD004E26BF /* Build configuration list for PBXNativeTarget "whatsPoppin" */;
+			buildPhases = (
+				6D08534977D343EAA84EBB8A /* Check Pods Manifest.lock */,
+				A27A7B51197192DD004E26BF /* Sources */,
+				A27A7B52197192DD004E26BF /* Frameworks */,
+				A27A7B53197192DD004E26BF /* Resources */,
+				4EB7E2BCF3EF481992BC055C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = whatsPoppin;
+			productName = whatsPoppin;
+			productReference = A27A7B55197192DD004E26BF /* whatsPoppin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A27A7B75197192DD004E26BF /* whatsPoppinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27A7B8A197192DD004E26BF /* Build configuration list for PBXNativeTarget "whatsPoppinTests" */;
+			buildPhases = (
+				A27A7B72197192DD004E26BF /* Sources */,
+				A27A7B73197192DD004E26BF /* Frameworks */,
+				A27A7B74197192DD004E26BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27A7B7C197192DD004E26BF /* PBXTargetDependency */,
+			);
+			name = whatsPoppinTests;
+			productName = whatsPoppinTests;
+			productReference = A27A7B76197192DD004E26BF /* whatsPoppinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27A7B4D197192DD004E26BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AAL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Albert Lardizabal";
+				TargetAttributes = {
+					A27A7B75197192DD004E26BF = {
+						TestTargetID = A27A7B54197192DD004E26BF;
+					};
+				};
+			};
+			buildConfigurationList = A27A7B50197192DD004E26BF /* Build configuration list for PBXProject "whatsPoppin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27A7B4C197192DD004E26BF;
+			productRefGroup = A27A7B56197192DD004E26BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27A7B54197192DD004E26BF /* whatsPoppin */,
+				A27A7B75197192DD004E26BF /* whatsPoppinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27A7B53197192DD004E26BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27A7B71197192DD004E26BF /* Images.xcassets in Resources */,
+				A27A7B63197192DD004E26BF /* InfoPlist.strings in Resources */,
+				A27A7B6C197192DD004E26BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27A7B74197192DD004E26BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27A7B82197192DD004E26BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EB7E2BCF3EF481992BC055C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D08534977D343EAA84EBB8A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27A7B51197192DD004E26BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27603AD1980878B00E16B5B /* AALCell.m in Sources */,
+				A26326B519802B0400174569 /* AALConstants.m in Sources */,
+				A265408619870739006E923A /* AALCoverFlowLayout.m in Sources */,
+				A29980AA1986972B0015E6C4 /* AALMasonryLayout.m in Sources */,
+				A276586C198644290080DA89 /* AALDetailViewController.m in Sources */,
+				A27A7B65197192DD004E26BF /* main.m in Sources */,
+				A27A7B69197192DD004E26BF /* AALAppDelegate.m in Sources */,
+				A27A7B6F197192DD004E26BF /* AALCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27A7B72197192DD004E26BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27A7B84197192DD004E26BF /* whatsPoppinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27A7B7C197192DD004E26BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27A7B54197192DD004E26BF /* whatsPoppin */;
+			targetProxy = A27A7B7B197192DD004E26BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A27A7B61197192DD004E26BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27A7B62197192DD004E26BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A27A7B6A197192DD004E26BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27A7B6B197192DD004E26BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A27A7B80197192DD004E26BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27A7B81197192DD004E26BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27A7B85197192DD004E26BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A27A7B86197192DD004E26BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27A7B88197192DD004E26BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C9D3D3ADCA4AA09860C92A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "whatsPoppin/whatsPoppin-Prefix.pch";
+				INFOPLIST_FILE = "whatsPoppin/whatsPoppin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A27A7B89197192DD004E26BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C9D3D3ADCA4AA09860C92A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "whatsPoppin/whatsPoppin-Prefix.pch";
+				INFOPLIST_FILE = "whatsPoppin/whatsPoppin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A27A7B8B197192DD004E26BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/whatsPoppin.app/whatsPoppin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "whatsPoppin/whatsPoppin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "whatsPoppinTests/whatsPoppinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A27A7B8C197192DD004E26BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/whatsPoppin.app/whatsPoppin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "whatsPoppin/whatsPoppin-Prefix.pch";
+				INFOPLIST_FILE = "whatsPoppinTests/whatsPoppinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27A7B50197192DD004E26BF /* Build configuration list for PBXProject "whatsPoppin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27A7B85197192DD004E26BF /* Debug */,
+				A27A7B86197192DD004E26BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27A7B87197192DD004E26BF /* Build configuration list for PBXNativeTarget "whatsPoppin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27A7B88197192DD004E26BF /* Debug */,
+				A27A7B89197192DD004E26BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27A7B8A197192DD004E26BF /* Build configuration list for PBXNativeTarget "whatsPoppinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27A7B8B197192DD004E26BF /* Debug */,
+				A27A7B8C197192DD004E26BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27A7B4D197192DD004E26BF /* Project object */;
+}

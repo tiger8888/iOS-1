@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A598" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JmK-tk-xXc"/>
+                        <viewControllerLayoutGuide type="bottom" id="WHY-Fw-Q5C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u98-0s-hRt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfA-YH-WfR">
+                                <rect key="frame" x="128" y="31" width="65" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Zb9-e8-hnp"/>
+                                    <constraint firstAttribute="width" constant="65" id="eDH-yB-RKZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Alert Me!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doAlert:" destination="2" eventType="touchUpInside" id="apu-Me-3Bg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3A-dW-odG">
+                                <rect key="frame" x="42" y="74" width="238" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="wO3-Be-Uci"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Alert with Buttons!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doMultiButtonAlert:" destination="2" eventType="touchUpInside" id="OW1-UT-fHO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DHq-gF-8Ar">
+                                <rect key="frame" x="42" y="119" width="238" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="lIc-Se-zbJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="I Need Input!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doAlertInput:" destination="2" eventType="touchUpInside" id="V47-HN-RKr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fo7-Pq-40a">
+                                <rect key="frame" x="57" y="207" width="209" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Lights, Camera, Action Sheet">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doActionSheet:" destination="2" eventType="touchUpInside" id="CZT-w6-pDV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1JS-14-XqZ">
+                                <rect key="frame" x="42" y="283" width="238" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="dtb-C4-khg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Play Sound">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doSound:" destination="2" eventType="touchUpInside" id="qsF-vq-6UY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdY-qt-gHZ">
+                                <rect key="frame" x="42" y="328" width="238" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="khy-sH-p55"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Play Alert Sound">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doAlertSound:" destination="2" eventType="touchUpInside" id="DUY-fQ-aDJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9L-J9-u6K">
+                                <rect key="frame" x="42" y="373" width="238" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="meq-lb-gxf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Vibrate Device">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doVibration:" destination="2" eventType="touchUpInside" id="jjt-uw-YhP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKy-WI-U0t">
+                                <rect key="frame" x="20" y="439" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="bKT-0t-3rv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.98763618901383765" blue="0.89594176289908345" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="x3A-dW-odG" firstAttribute="leading" secondItem="DHq-gF-8Ar" secondAttribute="leading" id="2v7-MV-MHM"/>
+                            <constraint firstItem="x3A-dW-odG" firstAttribute="top" secondItem="hfA-YH-WfR" secondAttribute="bottom" constant="8" symbolic="YES" id="4Ch-ho-Bd0"/>
+                            <constraint firstItem="x3A-dW-odG" firstAttribute="leading" secondItem="u98-0s-hRt" secondAttribute="leading" constant="42" id="6KF-EQ-jON"/>
+                            <constraint firstItem="LdY-qt-gHZ" firstAttribute="trailing" secondItem="1JS-14-XqZ" secondAttribute="trailing" id="9Ig-vW-4UR"/>
+                            <constraint firstItem="hfA-YH-WfR" firstAttribute="top" secondItem="JmK-tk-xXc" secondAttribute="bottom" constant="11" id="9hE-gQ-ais"/>
+                            <constraint firstItem="MKy-WI-U0t" firstAttribute="leading" secondItem="u98-0s-hRt" secondAttribute="leading" constant="20" symbolic="YES" id="Ad8-Yy-uAa"/>
+                            <constraint firstItem="fo7-Pq-40a" firstAttribute="leading" secondItem="u98-0s-hRt" secondAttribute="leading" constant="57" id="AmV-pw-nxm"/>
+                            <constraint firstItem="L9L-J9-u6K" firstAttribute="top" secondItem="LdY-qt-gHZ" secondAttribute="bottom" constant="8" symbolic="YES" id="F6c-Tl-fSR"/>
+                            <constraint firstAttribute="trailing" secondItem="x3A-dW-odG" secondAttribute="trailing" constant="40" id="JGc-7N-xry"/>
+                            <constraint firstItem="DHq-gF-8Ar" firstAttribute="trailing" secondItem="1JS-14-XqZ" secondAttribute="trailing" id="MSf-sy-iFm"/>
+                            <constraint firstItem="1JS-14-XqZ" firstAttribute="leading" secondItem="LdY-qt-gHZ" secondAttribute="leading" id="Ran-Jr-x50"/>
+                            <constraint firstItem="1JS-14-XqZ" firstAttribute="top" secondItem="fo7-Pq-40a" secondAttribute="bottom" constant="46" id="SAE-hR-X9k"/>
+                            <constraint firstAttribute="trailing" secondItem="MKy-WI-U0t" secondAttribute="trailing" constant="20" symbolic="YES" id="Tmi-RN-wpv"/>
+                            <constraint firstItem="DHq-gF-8Ar" firstAttribute="leading" secondItem="1JS-14-XqZ" secondAttribute="leading" id="Utn-1l-g0r"/>
+                            <constraint firstItem="LdY-qt-gHZ" firstAttribute="leading" secondItem="L9L-J9-u6K" secondAttribute="leading" id="cYI-n1-1n8"/>
+                            <constraint firstItem="DHq-gF-8Ar" firstAttribute="top" secondItem="x3A-dW-odG" secondAttribute="bottom" constant="8" symbolic="YES" id="jj9-JQ-gXI"/>
+                            <constraint firstItem="fo7-Pq-40a" firstAttribute="centerX" secondItem="1JS-14-XqZ" secondAttribute="centerX" id="l3Q-MQ-u78"/>
+                            <constraint firstAttribute="bottom" secondItem="MKy-WI-U0t" secondAttribute="bottom" constant="20" symbolic="YES" id="n3x-dY-2op"/>
+                            <constraint firstItem="MKy-WI-U0t" firstAttribute="centerX" secondItem="hfA-YH-WfR" secondAttribute="centerX" id="r0e-91-jgw"/>
+                            <constraint firstItem="L9L-J9-u6K" firstAttribute="trailing" secondItem="LdY-qt-gHZ" secondAttribute="trailing" id="s2S-Yn-AIP"/>
+                            <constraint firstItem="LdY-qt-gHZ" firstAttribute="top" secondItem="1JS-14-XqZ" secondAttribute="bottom" constant="8" symbolic="YES" id="tC9-i8-Z43"/>
+                            <constraint firstItem="DHq-gF-8Ar" firstAttribute="trailing" secondItem="x3A-dW-odG" secondAttribute="trailing" id="x1J-dL-Ojm"/>
+                            <constraint firstItem="fo7-Pq-40a" firstAttribute="top" secondItem="DHq-gF-8Ar" secondAttribute="bottom" constant="51" id="yfu-Ct-sDa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="userOutput" destination="MKy-WI-U0t" id="r9O-6k-5Nv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="272" y="19"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

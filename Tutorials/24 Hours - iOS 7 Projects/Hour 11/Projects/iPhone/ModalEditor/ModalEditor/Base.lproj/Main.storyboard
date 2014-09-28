@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A598" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--Initial-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" userLabel="Initial" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SZS-Nb-17u"/>
+                        <viewControllerLayoutGuide type="bottom" id="1xm-n2-Lfe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tec-he-hn1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Email Address:" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="wtR-NF-xDU">
+                                <rect key="frame" x="103" y="152" width="115" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="Tf4-s4-WNT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="johnray@mac.com" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="20v-Qh-NyG">
+                                <rect key="frame" x="89" y="181" width="142" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIP-Up-DfL">
+                                <rect key="frame" x="145" y="225" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Edit">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AdL-De-KgV" kind="modal" identifier="toEditor" modalTransitionStyle="partialCurl" id="cS5-5a-H7o"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BIP-Up-DfL" firstAttribute="centerX" secondItem="20v-Qh-NyG" secondAttribute="centerX" id="2Vg-in-k8k"/>
+                            <constraint firstItem="BIP-Up-DfL" firstAttribute="centerX" secondItem="tec-he-hn1" secondAttribute="centerX" id="NxE-Uo-AoI"/>
+                            <constraint firstItem="BIP-Up-DfL" firstAttribute="centerY" secondItem="tec-he-hn1" secondAttribute="centerY" id="QmY-yt-gBP"/>
+                            <constraint firstItem="BIP-Up-DfL" firstAttribute="top" secondItem="20v-Qh-NyG" secondAttribute="bottom" constant="23" id="ShM-Sn-E6x"/>
+                            <constraint firstItem="20v-Qh-NyG" firstAttribute="centerX" secondItem="wtR-NF-xDU" secondAttribute="centerX" id="hbD-z6-gBK"/>
+                            <constraint firstItem="20v-Qh-NyG" firstAttribute="top" secondItem="wtR-NF-xDU" secondAttribute="bottom" constant="8" symbolic="YES" id="j3k-eg-2sD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailLabel" destination="20v-Qh-NyG" id="Mok-Di-NCz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <exit id="Wb2-xJ-cvJ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+        </scene>
+        <!--Editor-->
+        <scene sceneID="IIw-c3-t1V">
+            <objects>
+                <viewController id="AdL-De-KgV" userLabel="Editor" customClass="EditorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vQN-WP-TbT"/>
+                        <viewControllerLayoutGuide type="bottom" id="IrG-j4-ysW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zPL-mP-QsO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Email Address:" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="1NA-w3-bVv">
+                                <rect key="frame" x="103" y="159" width="115" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6oj-RT-o3s">
+                                <rect key="frame" x="20" y="182" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="hideKeyboard:" destination="AdL-De-KgV" eventType="editingDidEndOnExit" id="U12-Mw-RiF"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAy-uK-BRn">
+                                <rect key="frame" x="124" y="222" width="72" height="36"/>
+                                <state key="normal" title="Finished">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="updateEditor:" destination="AdL-De-KgV" eventType="touchUpInside" id="9EP-LW-Kfg"/>
+                                    <segue destination="Wb2-xJ-cvJ" kind="unwind" unwindAction="exitToHere:" id="COC-Im-5NU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailField" destination="6oj-RT-o3s" id="l2S-Ed-Xb7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5lu-5Y-QL5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="96"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

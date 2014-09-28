@@ -1,0 +1,10 @@
+PODS:
+  - OBDragDrop (1.0.0)
+
+DEPENDENCIES:
+  - OBDragDrop
+
+SPEC CHECKSUMS:
+  OBDragDrop: 45e232a3df0b9f8aa94a92f6b7512d9177019ec0
+
+COCOAPODS: 0.33.1

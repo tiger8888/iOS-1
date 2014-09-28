@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27FB53DC17CA4DC7000A540F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FB53DB17CA4DC7000A540F /* Foundation.framework */; };
+		27FB53DE17CA4DC7000A540F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FB53DD17CA4DC7000A540F /* CoreGraphics.framework */; };
+		27FB53E017CA4DC7000A540F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FB53DF17CA4DC7000A540F /* UIKit.framework */; };
+		27FB53E617CA4DC7000A540F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27FB53E417CA4DC7000A540F /* InfoPlist.strings */; };
+		27FB53E817CA4DC7000A540F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FB53E717CA4DC7000A540F /* main.m */; };
+		27FB53EC17CA4DC7000A540F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FB53EB17CA4DC7000A540F /* AppDelegate.m */; };
+		27FB53EF17CA4DC7000A540F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FB53ED17CA4DC7000A540F /* Main.storyboard */; };
+		27FB53F417CA4DC7000A540F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FB53F317CA4DC7000A540F /* Images.xcassets */; };
+		27FB53FB17CA4DC7000A540F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FB53FA17CA4DC7000A540F /* XCTest.framework */; };
+		27FB53FC17CA4DC7000A540F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FB53DB17CA4DC7000A540F /* Foundation.framework */; };
+		27FB53FD17CA4DC7000A540F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FB53DF17CA4DC7000A540F /* UIKit.framework */; };
+		27FB540517CA4DC7000A540F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27FB540317CA4DC7000A540F /* InfoPlist.strings */; };
+		27FB540717CA4DC7000A540F /* LetsTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FB540617CA4DC7000A540F /* LetsTabTests.m */; };
+		27FB541217CA4E58000A540F /* CountingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FB541117CA4E58000A540F /* CountingTabBarController.m */; };
+		27FB541517CA4E79000A540F /* GenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FB541417CA4E79000A540F /* GenericViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27FB53FE17CA4DC7000A540F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27FB53D017CA4DC7000A540F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27FB53D717CA4DC7000A540F;
+			remoteInfo = LetsTab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27FB53D817CA4DC7000A540F /* LetsTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FB53DB17CA4DC7000A540F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27FB53DD17CA4DC7000A540F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27FB53DF17CA4DC7000A540F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27FB53E317CA4DC7000A540F /* LetsTab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LetsTab-Info.plist"; sourceTree = "<group>"; };
+		27FB53E517CA4DC7000A540F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27FB53E717CA4DC7000A540F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27FB53E917CA4DC7000A540F /* LetsTab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LetsTab-Prefix.pch"; sourceTree = "<group>"; };
+		27FB53EA17CA4DC7000A540F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27FB53EB17CA4DC7000A540F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27FB53EE17CA4DC7000A540F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27FB53F317CA4DC7000A540F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27FB53F917CA4DC7000A540F /* LetsTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FB53FA17CA4DC7000A540F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		27FB540217CA4DC7000A540F /* LetsTabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LetsTabTests-Info.plist"; sourceTree = "<group>"; };
+		27FB540417CA4DC7000A540F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27FB540617CA4DC7000A540F /* LetsTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetsTabTests.m; sourceTree = "<group>"; };
+		27FB541017CA4E58000A540F /* CountingTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountingTabBarController.h; sourceTree = "<group>"; };
+		27FB541117CA4E58000A540F /* CountingTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountingTabBarController.m; sourceTree = "<group>"; };
+		27FB541317CA4E79000A540F /* GenericViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericViewController.h; sourceTree = "<group>"; };
+		27FB541417CA4E79000A540F /* GenericViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27FB53D517CA4DC7000A540F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FB53DE17CA4DC7000A540F /* CoreGraphics.framework in Frameworks */,
+				27FB53E017CA4DC7000A540F /* UIKit.framework in Frameworks */,
+				27FB53DC17CA4DC7000A540F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FB53F617CA4DC7000A540F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FB53FB17CA4DC7000A540F /* XCTest.framework in Frameworks */,
+				27FB53FD17CA4DC7000A540F /* UIKit.framework in Frameworks */,
+				27FB53FC17CA4DC7000A540F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27FB53CF17CA4DC7000A540F = {
+			isa = PBXGroup;
+			children = (
+				27FB53E117CA4DC7000A540F /* LetsTab */,
+				27FB540017CA4DC7000A540F /* LetsTabTests */,
+				27FB53DA17CA4DC7000A540F /* Frameworks */,
+				27FB53D917CA4DC7000A540F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27FB53D917CA4DC7000A540F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27FB53D817CA4DC7000A540F /* LetsTab.app */,
+				27FB53F917CA4DC7000A540F /* LetsTabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27FB53DA17CA4DC7000A540F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27FB53DB17CA4DC7000A540F /* Foundation.framework */,
+				27FB53DD17CA4DC7000A540F /* CoreGraphics.framework */,
+				27FB53DF17CA4DC7000A540F /* UIKit.framework */,
+				27FB53FA17CA4DC7000A540F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27FB53E117CA4DC7000A540F /* LetsTab */ = {
+			isa = PBXGroup;
+			children = (
+				27FB53EA17CA4DC7000A540F /* AppDelegate.h */,
+				27FB53EB17CA4DC7000A540F /* AppDelegate.m */,
+				27FB53ED17CA4DC7000A540F /* Main.storyboard */,
+				27FB53F317CA4DC7000A540F /* Images.xcassets */,
+				27FB541017CA4E58000A540F /* CountingTabBarController.h */,
+				27FB541117CA4E58000A540F /* CountingTabBarController.m */,
+				27FB541317CA4E79000A540F /* GenericViewController.h */,
+				27FB541417CA4E79000A540F /* GenericViewController.m */,
+				27FB53E217CA4DC7000A540F /* Supporting Files */,
+			);
+			path = LetsTab;
+			sourceTree = "<group>";
+		};
+		27FB53E217CA4DC7000A540F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27FB53E317CA4DC7000A540F /* LetsTab-Info.plist */,
+				27FB53E417CA4DC7000A540F /* InfoPlist.strings */,
+				27FB53E717CA4DC7000A540F /* main.m */,
+				27FB53E917CA4DC7000A540F /* LetsTab-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27FB540017CA4DC7000A540F /* LetsTabTests */ = {
+			isa = PBXGroup;
+			children = (
+				27FB540617CA4DC7000A540F /* LetsTabTests.m */,
+				27FB540117CA4DC7000A540F /* Supporting Files */,
+			);
+			path = LetsTabTests;
+			sourceTree = "<group>";
+		};
+		27FB540117CA4DC7000A540F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27FB540217CA4DC7000A540F /* LetsTabTests-Info.plist */,
+				27FB540317CA4DC7000A540F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27FB53D717CA4DC7000A540F /* LetsTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FB540A17CA4DC7000A540F /* Build configuration list for PBXNativeTarget "LetsTab" */;
+			buildPhases = (
+				27FB53D417CA4DC7000A540F /* Sources */,
+				27FB53D517CA4DC7000A540F /* Frameworks */,
+				27FB53D617CA4DC7000A540F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsTab;
+			productName = LetsTab;
+			productReference = 27FB53D817CA4DC7000A540F /* LetsTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27FB53F817CA4DC7000A540F /* LetsTabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FB540D17CA4DC7000A540F /* Build configuration list for PBXNativeTarget "LetsTabTests" */;
+			buildPhases = (
+				27FB53F517CA4DC7000A540F /* Sources */,
+				27FB53F617CA4DC7000A540F /* Frameworks */,
+				27FB53F717CA4DC7000A540F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27FB53FF17CA4DC7000A540F /* PBXTargetDependency */,
+			);
+			name = LetsTabTests;
+			productName = LetsTabTests;
+			productReference = 27FB53F917CA4DC7000A540F /* LetsTabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27FB53D017CA4DC7000A540F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "John Ray";
+				TargetAttributes = {
+					27FB53F817CA4DC7000A540F = {
+						TestTargetID = 27FB53D717CA4DC7000A540F;
+					};
+				};
+			};
+			buildConfigurationList = 27FB53D317CA4DC7000A540F /* Build configuration list for PBXProject "LetsTab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27FB53CF17CA4DC7000A540F;
+			productRefGroup = 27FB53D917CA4DC7000A540F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27FB53D717CA4DC7000A540F /* LetsTab */,
+				27FB53F817CA4DC7000A540F /* LetsTabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27FB53D617CA4DC7000A540F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FB53F417CA4DC7000A540F /* Images.xcassets in Resources */,
+				27FB53E617CA4DC7000A540F /* InfoPlist.strings in Resources */,
+				27FB53EF17CA4DC7000A540F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FB53F717CA4DC7000A540F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FB540517CA4DC7000A540F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27FB53D417CA4DC7000A540F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FB541217CA4E58000A540F /* CountingTabBarController.m in Sources */,
+				27FB53EC17CA4DC7000A540F /* AppDelegate.m in Sources */,
+				27FB541517CA4E79000A540F /* GenericViewController.m in Sources */,
+				27FB53E817CA4DC7000A540F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FB53F517CA4DC7000A540F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FB540717CA4DC7000A540F /* LetsTabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27FB53FF17CA4DC7000A540F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27FB53D717CA4DC7000A540F /* LetsTab */;
+			targetProxy = 27FB53FE17CA4DC7000A540F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27FB53E417CA4DC7000A540F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FB53E517CA4DC7000A540F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27FB53ED17CA4DC7000A540F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FB53EE17CA4DC7000A540F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27FB540317CA4DC7000A540F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FB540417CA4DC7000A540F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27FB540817CA4DC7000A540F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27FB540917CA4DC7000A540F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27FB540B17CA4DC7000A540F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetsTab/LetsTab-Prefix.pch";
+				INFOPLIST_FILE = "LetsTab/LetsTab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27FB540C17CA4DC7000A540F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetsTab/LetsTab-Prefix.pch";
+				INFOPLIST_FILE = "LetsTab/LetsTab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27FB540E17CA4DC7000A540F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LetsTab.app/LetsTab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetsTab/LetsTab-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LetsTabTests/LetsTabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		27FB540F17CA4DC7000A540F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LetsTab.app/LetsTab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetsTab/LetsTab-Prefix.pch";
+				INFOPLIST_FILE = "LetsTabTests/LetsTabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27FB53D317CA4DC7000A540F /* Build configuration list for PBXProject "LetsTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FB540817CA4DC7000A540F /* Debug */,
+				27FB540917CA4DC7000A540F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FB540A17CA4DC7000A540F /* Build configuration list for PBXNativeTarget "LetsTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FB540B17CA4DC7000A540F /* Debug */,
+				27FB540C17CA4DC7000A540F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27FB540D17CA4DC7000A540F /* Build configuration list for PBXNativeTarget "LetsTabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FB540E17CA4DC7000A540F /* Debug */,
+				27FB540F17CA4DC7000A540F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27FB53D017CA4DC7000A540F /* Project object */;
+}

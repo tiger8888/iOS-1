@@ -1,0 +1,10 @@
+PODS:
+  - MarqueeLabel (1.5.0)
+
+DEPENDENCIES:
+  - MarqueeLabel
+
+SPEC CHECKSUMS:
+  MarqueeLabel: 7ff45679a60829276e5323792ccf6aa619100e09
+
+COCOAPODS: 0.33.1

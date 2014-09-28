@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E19" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="AALViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="960" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gex-aY-QJW">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mad-Ik-HME">
+                                        <rect key="frame" x="0.0" y="0.0" width="960" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GiJsM6U.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hET-CO-2Js">
+                                                <rect key="frame" x="320" y="0.0" width="320" height="568"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GiJsM6U.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jFC-lP-0wB">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="960" id="72C-XY-gS8"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Mad-Ik-HME" secondAttribute="bottom" id="YYG-gj-OL7"/>
+                                    <constraint firstItem="Mad-Ik-HME" firstAttribute="leading" secondItem="gex-aY-QJW" secondAttribute="leading" id="erd-oY-OLg"/>
+                                    <constraint firstItem="Mad-Ik-HME" firstAttribute="top" secondItem="gex-aY-QJW" secondAttribute="top" id="o2Q-Vg-KWP"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mad-Ik-HME" secondAttribute="trailing" id="vp8-36-dua"/>
+                                    <constraint firstAttribute="height" secondItem="Mad-Ik-HME" secondAttribute="height" id="xv5-Yd-lv0"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gex-aY-QJW" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="6CT-K0-Lc3"/>
+                            <constraint firstAttribute="trailing" secondItem="gex-aY-QJW" secondAttribute="trailing" id="ChE-nT-I5g"/>
+                            <constraint firstItem="gex-aY-QJW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="E1E-9W-V8r"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="gex-aY-QJW" secondAttribute="bottom" id="rrO-ex-kid"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="960" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GiJsM6U.jpg" width="2048" height="1529"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

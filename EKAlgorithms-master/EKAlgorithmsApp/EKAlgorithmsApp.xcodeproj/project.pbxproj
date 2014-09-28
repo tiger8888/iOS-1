@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86C5147B18F80E5A00B5E9AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C5147A18F80E5A00B5E9AE /* Foundation.framework */; };
+		86C5147E18F80E5A00B5E9AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5147D18F80E5A00B5E9AE /* main.m */; };
+		86C5148218F80E5A00B5E9AE /* EKAlgorithmsApp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86C5148118F80E5A00B5E9AE /* EKAlgorithmsApp.1 */; };
+		86C5148E18F80E8000B5E9AE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C5148D18F80E8000B5E9AE /* XCTest.framework */; };
+		86C5149418F80E8000B5E9AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86C5149218F80E8000B5E9AE /* InfoPlist.strings */; };
+		86C515C918F8162F00B5E9AE /* EKAVLTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5158918F8162F00B5E9AE /* EKAVLTree.m */; };
+		86C515CA18F8162F00B5E9AE /* EKAVLTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5158918F8162F00B5E9AE /* EKAVLTree.m */; };
+		86C515CB18F8162F00B5E9AE /* EKAVLTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5158B18F8162F00B5E9AE /* EKAVLTreeNode.m */; };
+		86C515CC18F8162F00B5E9AE /* EKAVLTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5158B18F8162F00B5E9AE /* EKAVLTreeNode.m */; };
+		86C515CD18F8162F00B5E9AE /* EKBSTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5158E18F8162F00B5E9AE /* EKBSTree.m */; };
+		86C515CE18F8162F00B5E9AE /* EKBSTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5158E18F8162F00B5E9AE /* EKBSTree.m */; };
+		86C515CF18F8162F00B5E9AE /* EKBSTree.png in Resources */ = {isa = PBXBuildFile; fileRef = 86C5158F18F8162F00B5E9AE /* EKBSTree.png */; };
+		86C515D018F8162F00B5E9AE /* EKBTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159118F8162F00B5E9AE /* EKBTreeNode.m */; };
+		86C515D118F8162F00B5E9AE /* EKBTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159118F8162F00B5E9AE /* EKBTreeNode.m */; };
+		86C515D218F8162F00B5E9AE /* EKBTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159418F8162F00B5E9AE /* EKBTree.m */; };
+		86C515D318F8162F00B5E9AE /* EKBTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159418F8162F00B5E9AE /* EKBTree.m */; };
+		86C515D418F8162F00B5E9AE /* EKBHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159618F8162F00B5E9AE /* EKBHeap.m */; };
+		86C515D518F8162F00B5E9AE /* EKBHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159618F8162F00B5E9AE /* EKBHeap.m */; };
+		86C515D618F8162F00B5E9AE /* EKDeque.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159818F8162F00B5E9AE /* EKDeque.m */; };
+		86C515D718F8162F00B5E9AE /* EKDeque.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159818F8162F00B5E9AE /* EKDeque.m */; };
+		86C515D818F8162F00B5E9AE /* EKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159A18F8162F00B5E9AE /* EKQueue.m */; };
+		86C515D918F8162F00B5E9AE /* EKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159A18F8162F00B5E9AE /* EKQueue.m */; };
+		86C515DA18F8162F00B5E9AE /* EKStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159C18F8162F00B5E9AE /* EKStack.m */; };
+		86C515DB18F8162F00B5E9AE /* EKStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159C18F8162F00B5E9AE /* EKStack.m */; };
+		86C515DC18F8162F00B5E9AE /* EKEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159F18F8162F00B5E9AE /* EKEdge.m */; };
+		86C515DD18F8162F00B5E9AE /* EKEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5159F18F8162F00B5E9AE /* EKEdge.m */; };
+		86C515DE18F8162F00B5E9AE /* EKGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515A118F8162F00B5E9AE /* EKGraph.m */; };
+		86C515DF18F8162F00B5E9AE /* EKGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515A118F8162F00B5E9AE /* EKGraph.m */; };
+		86C515E018F8162F00B5E9AE /* EKGraphPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 86C515A218F8162F00B5E9AE /* EKGraphPicture.png */; };
+		86C515E118F8162F00B5E9AE /* EKTopsort.png in Resources */ = {isa = PBXBuildFile; fileRef = 86C515A318F8162F00B5E9AE /* EKTopsort.png */; };
+		86C515E218F8162F00B5E9AE /* EKVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515A518F8162F00B5E9AE /* EKVertex.m */; };
+		86C515E318F8162F00B5E9AE /* EKVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515A518F8162F00B5E9AE /* EKVertex.m */; };
+		86C515E418F8162F00B5E9AE /* EKLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515A818F8162F00B5E9AE /* EKLinkedList.m */; };
+		86C515E518F8162F00B5E9AE /* EKLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515A818F8162F00B5E9AE /* EKLinkedList.m */; };
+		86C515E618F8162F00B5E9AE /* EKNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515AA18F8162F00B5E9AE /* EKNode.m */; };
+		86C515E718F8162F00B5E9AE /* EKNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515AA18F8162F00B5E9AE /* EKNode.m */; };
+		86C515E818F8162F00B5E9AE /* EKTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515AD18F8162F00B5E9AE /* EKTree.m */; };
+		86C515E918F8162F00B5E9AE /* EKTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515AD18F8162F00B5E9AE /* EKTree.m */; };
+		86C515EA18F8162F00B5E9AE /* EKTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515AF18F8162F00B5E9AE /* EKTreeNode.m */; };
+		86C515EB18F8162F00B5E9AE /* EKTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515AF18F8162F00B5E9AE /* EKTreeNode.m */; };
+		86C515EC18F8162F00B5E9AE /* EKRecursionStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515B118F8162F00B5E9AE /* EKRecursionStuff.m */; };
+		86C515ED18F8162F00B5E9AE /* EKRecursionStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515B118F8162F00B5E9AE /* EKRecursionStuff.m */; };
+		86C515EE18F8162F00B5E9AE /* EKALocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515B418F8162F00B5E9AE /* EKALocation.m */; };
+		86C515EF18F8162F00B5E9AE /* EKALocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515B418F8162F00B5E9AE /* EKALocation.m */; };
+		86C515F018F8162F00B5E9AE /* NSArray+EKGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515B718F8162F00B5E9AE /* NSArray+EKGeometry.m */; };
+		86C515F118F8162F00B5E9AE /* NSArray+EKGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515B718F8162F00B5E9AE /* NSArray+EKGeometry.m */; };
+		86C515F218F8162F00B5E9AE /* NSArray+EKStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515B918F8162F00B5E9AE /* NSArray+EKStuff.m */; };
+		86C515F318F8162F00B5E9AE /* NSArray+EKStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515B918F8162F00B5E9AE /* NSArray+EKStuff.m */; };
+		86C515F418F8162F00B5E9AE /* NSDictionary+EKStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515BB18F8162F00B5E9AE /* NSDictionary+EKStuff.m */; };
+		86C515F518F8162F00B5E9AE /* NSDictionary+EKStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515BB18F8162F00B5E9AE /* NSDictionary+EKStuff.m */; };
+		86C515F618F8162F00B5E9AE /* NSNumber+EKStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515BD18F8162F00B5E9AE /* NSNumber+EKStuff.m */; };
+		86C515F718F8162F00B5E9AE /* NSNumber+EKStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515BD18F8162F00B5E9AE /* NSNumber+EKStuff.m */; };
+		86C515F818F8162F00B5E9AE /* NSString+EKStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515BF18F8162F00B5E9AE /* NSString+EKStuff.m */; };
+		86C515F918F8162F00B5E9AE /* NSString+EKStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515BF18F8162F00B5E9AE /* NSString+EKStuff.m */; };
+		86C515FA18F8162F00B5E9AE /* NSArray+Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515C518F8162F00B5E9AE /* NSArray+Selection.m */; };
+		86C515FB18F8162F00B5E9AE /* NSArray+Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515C518F8162F00B5E9AE /* NSArray+Selection.m */; };
+		86C515FC18F8162F00B5E9AE /* NSArray+EKSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515C818F8162F00B5E9AE /* NSArray+EKSorting.m */; };
+		86C515FD18F8162F00B5E9AE /* NSArray+EKSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C515C818F8162F00B5E9AE /* NSArray+EKSorting.m */; };
+		86EBBC0E18F82B3A00F888C3 /* GeometrySpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EBBC0318F82B2F00F888C3 /* GeometrySpecs.m */; };
+		86EBBC0F18F82B3A00F888C3 /* NSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EBBC0418F82B2F00F888C3 /* NSArray.m */; };
+		86EBBC1018F82B3A00F888C3 /* NSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EBBC0518F82B2F00F888C3 /* NSNumber.m */; };
+		86EBBC1118F82B3A00F888C3 /* ProblemsSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EBBC0618F82B2F00F888C3 /* ProblemsSpecs.m */; };
+		86EBBC1218F82B3A00F888C3 /* SortingSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EBBC0718F82B2F00F888C3 /* SortingSpecs.m */; };
+		8F0E298619015E3A00CC3934 /* RadixNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0E298519015E3A00CC3934 /* RadixNode.m */; };
+		8F0E298719015E3A00CC3934 /* RadixNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0E298519015E3A00CC3934 /* RadixNode.m */; };
+		C22C87D3FD1E427AA38427B2 /* libPods-EKAlgorithmsSpecs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 666CA5D0F3A84DDFB57C1434 /* libPods-EKAlgorithmsSpecs.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86C5147518F80E5A00B5E9AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				86C5148218F80E5A00B5E9AE /* EKAlgorithmsApp.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		666CA5D0F3A84DDFB57C1434 /* libPods-EKAlgorithmsSpecs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EKAlgorithmsSpecs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C5147718F80E5A00B5E9AE /* EKAlgorithmsExamples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EKAlgorithmsExamples; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C5147A18F80E5A00B5E9AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86C5147D18F80E5A00B5E9AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86C5148018F80E5A00B5E9AE /* EKAlgorithmsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EKAlgorithmsApp-Prefix.pch"; sourceTree = "<group>"; };
+		86C5148118F80E5A00B5E9AE /* EKAlgorithmsApp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EKAlgorithmsApp.1; sourceTree = "<group>"; };
+		86C5148C18F80E8000B5E9AE /* EKAlgorithmsSpecs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EKAlgorithmsSpecs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C5148D18F80E8000B5E9AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		86C5149118F80E8000B5E9AE /* EKAlgorithmsSpecs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EKAlgorithmsSpecs-Info.plist"; sourceTree = "<group>"; };
+		86C5149318F80E8000B5E9AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86C5149718F80E8000B5E9AE /* EKAlgorithmsSpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EKAlgorithmsSpecs-Prefix.pch"; sourceTree = "<group>"; };
+		86C5158818F8162F00B5E9AE /* EKAVLTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAVLTree.h; sourceTree = "<group>"; };
+		86C5158918F8162F00B5E9AE /* EKAVLTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAVLTree.m; sourceTree = "<group>"; };
+		86C5158A18F8162F00B5E9AE /* EKAVLTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAVLTreeNode.h; sourceTree = "<group>"; };
+		86C5158B18F8162F00B5E9AE /* EKAVLTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAVLTreeNode.m; sourceTree = "<group>"; };
+		86C5158D18F8162F00B5E9AE /* EKBSTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKBSTree.h; sourceTree = "<group>"; };
+		86C5158E18F8162F00B5E9AE /* EKBSTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKBSTree.m; sourceTree = "<group>"; };
+		86C5158F18F8162F00B5E9AE /* EKBSTree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EKBSTree.png; sourceTree = "<group>"; };
+		86C5159018F8162F00B5E9AE /* EKBTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKBTreeNode.h; sourceTree = "<group>"; };
+		86C5159118F8162F00B5E9AE /* EKBTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKBTreeNode.m; sourceTree = "<group>"; };
+		86C5159318F8162F00B5E9AE /* EKBTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKBTree.h; sourceTree = "<group>"; };
+		86C5159418F8162F00B5E9AE /* EKBTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKBTree.m; sourceTree = "<group>"; };
+		86C5159518F8162F00B5E9AE /* EKBHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKBHeap.h; sourceTree = "<group>"; };
+		86C5159618F8162F00B5E9AE /* EKBHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKBHeap.m; sourceTree = "<group>"; };
+		86C5159718F8162F00B5E9AE /* EKDeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDeque.h; sourceTree = "<group>"; };
+		86C5159818F8162F00B5E9AE /* EKDeque.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDeque.m; sourceTree = "<group>"; };
+		86C5159918F8162F00B5E9AE /* EKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKQueue.h; sourceTree = "<group>"; };
+		86C5159A18F8162F00B5E9AE /* EKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKQueue.m; sourceTree = "<group>"; };
+		86C5159B18F8162F00B5E9AE /* EKStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKStack.h; sourceTree = "<group>"; };
+		86C5159C18F8162F00B5E9AE /* EKStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKStack.m; sourceTree = "<group>"; };
+		86C5159E18F8162F00B5E9AE /* EKEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKEdge.h; sourceTree = "<group>"; };
+		86C5159F18F8162F00B5E9AE /* EKEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKEdge.m; sourceTree = "<group>"; };
+		86C515A018F8162F00B5E9AE /* EKGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKGraph.h; sourceTree = "<group>"; };
+		86C515A118F8162F00B5E9AE /* EKGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKGraph.m; sourceTree = "<group>"; };
+		86C515A218F8162F00B5E9AE /* EKGraphPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EKGraphPicture.png; sourceTree = "<group>"; };
+		86C515A318F8162F00B5E9AE /* EKTopsort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EKTopsort.png; sourceTree = "<group>"; };
+		86C515A418F8162F00B5E9AE /* EKVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKVertex.h; sourceTree = "<group>"; };
+		86C515A518F8162F00B5E9AE /* EKVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKVertex.m; sourceTree = "<group>"; };
+		86C515A718F8162F00B5E9AE /* EKLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKLinkedList.h; sourceTree = "<group>"; };
+		86C515A818F8162F00B5E9AE /* EKLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKLinkedList.m; sourceTree = "<group>"; };
+		86C515A918F8162F00B5E9AE /* EKNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKNode.h; sourceTree = "<group>"; };
+		86C515AA18F8162F00B5E9AE /* EKNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKNode.m; sourceTree = "<group>"; };
+		86C515AC18F8162F00B5E9AE /* EKTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTree.h; sourceTree = "<group>"; };
+		86C515AD18F8162F00B5E9AE /* EKTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTree.m; sourceTree = "<group>"; };
+		86C515AE18F8162F00B5E9AE /* EKTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTreeNode.h; sourceTree = "<group>"; };
+		86C515AF18F8162F00B5E9AE /* EKTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTreeNode.m; sourceTree = "<group>"; };
+		86C515B018F8162F00B5E9AE /* EKRecursionStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKRecursionStuff.h; sourceTree = "<group>"; };
+		86C515B118F8162F00B5E9AE /* EKRecursionStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKRecursionStuff.m; sourceTree = "<group>"; };
+		86C515B318F8162F00B5E9AE /* EKALocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKALocation.h; sourceTree = "<group>"; };
+		86C515B418F8162F00B5E9AE /* EKALocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKALocation.m; sourceTree = "<group>"; };
+		86C515B518F8162F00B5E9AE /* EKGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKGeometry.h; sourceTree = "<group>"; };
+		86C515B618F8162F00B5E9AE /* NSArray+EKGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+EKGeometry.h"; sourceTree = "<group>"; };
+		86C515B718F8162F00B5E9AE /* NSArray+EKGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+EKGeometry.m"; sourceTree = "<group>"; };
+		86C515B818F8162F00B5E9AE /* NSArray+EKStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+EKStuff.h"; sourceTree = "<group>"; };
+		86C515B918F8162F00B5E9AE /* NSArray+EKStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+EKStuff.m"; sourceTree = "<group>"; };
+		86C515BA18F8162F00B5E9AE /* NSDictionary+EKStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+EKStuff.h"; sourceTree = "<group>"; };
+		86C515BB18F8162F00B5E9AE /* NSDictionary+EKStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+EKStuff.m"; sourceTree = "<group>"; };
+		86C515BC18F8162F00B5E9AE /* NSNumber+EKStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+EKStuff.h"; sourceTree = "<group>"; };
+		86C515BD18F8162F00B5E9AE /* NSNumber+EKStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+EKStuff.m"; sourceTree = "<group>"; };
+		86C515BE18F8162F00B5E9AE /* NSString+EKStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EKStuff.h"; sourceTree = "<group>"; };
+		86C515BF18F8162F00B5E9AE /* NSString+EKStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EKStuff.m"; sourceTree = "<group>"; };
+		86C515C118F8162F00B5E9AE /* JosephusProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JosephusProblem.h; sourceTree = "<group>"; };
+		86C515C218F8162F00B5E9AE /* ModuloBias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuloBias.h; sourceTree = "<group>"; };
+		86C515C418F8162F00B5E9AE /* NSArray+Selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Selection.h"; sourceTree = "<group>"; };
+		86C515C518F8162F00B5E9AE /* NSArray+Selection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Selection.m"; sourceTree = "<group>"; };
+		86C515C718F8162F00B5E9AE /* NSArray+EKSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+EKSorting.h"; sourceTree = "<group>"; };
+		86C515C818F8162F00B5E9AE /* NSArray+EKSorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+EKSorting.m"; sourceTree = "<group>"; };
+		86EBBC0318F82B2F00F888C3 /* GeometrySpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeometrySpecs.m; sourceTree = "<group>"; };
+		86EBBC0418F82B2F00F888C3 /* NSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray.m; sourceTree = "<group>"; };
+		86EBBC0518F82B2F00F888C3 /* NSNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumber.m; sourceTree = "<group>"; };
+		86EBBC0618F82B2F00F888C3 /* ProblemsSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemsSpecs.m; sourceTree = "<group>"; };
+		86EBBC0718F82B2F00F888C3 /* SortingSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortingSpecs.m; sourceTree = "<group>"; };
+		86EBBC0818F82B2F00F888C3 /* SpecHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecHelpers.h; sourceTree = "<group>"; };
+		8F0E298419015E3A00CC3934 /* RadixNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadixNode.h; sourceTree = "<group>"; };
+		8F0E298519015E3A00CC3934 /* RadixNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadixNode.m; sourceTree = "<group>"; };
+		CF81BD80824A41FB97720C8E /* Pods-EKAlgorithmsSpecs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKAlgorithmsSpecs.xcconfig"; path = "Pods/Pods-EKAlgorithmsSpecs.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86C5147418F80E5A00B5E9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C5147B18F80E5A00B5E9AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C5148918F80E8000B5E9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C5148E18F80E8000B5E9AE /* XCTest.framework in Frameworks */,
+				C22C87D3FD1E427AA38427B2 /* libPods-EKAlgorithmsSpecs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86C5146E18F80E5A00B5E9AE = {
+			isa = PBXGroup;
+			children = (
+				86C5158518F8162F00B5E9AE /* EKAlgorithms */,
+				86EBBC0218F82B2F00F888C3 /* Specs */,
+				86C5147C18F80E5A00B5E9AE /* EKAlgorithmsExamples */,
+				86C5148F18F80E8000B5E9AE /* EKAlgorithmsSpecs */,
+				86C5147918F80E5A00B5E9AE /* Frameworks */,
+				86C5147818F80E5A00B5E9AE /* Products */,
+				CF81BD80824A41FB97720C8E /* Pods-EKAlgorithmsSpecs.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		86C5147818F80E5A00B5E9AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C5147718F80E5A00B5E9AE /* EKAlgorithmsExamples */,
+				86C5148C18F80E8000B5E9AE /* EKAlgorithmsSpecs.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86C5147918F80E5A00B5E9AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86C5147A18F80E5A00B5E9AE /* Foundation.framework */,
+				86C5148D18F80E8000B5E9AE /* XCTest.framework */,
+				666CA5D0F3A84DDFB57C1434 /* libPods-EKAlgorithmsSpecs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86C5147C18F80E5A00B5E9AE /* EKAlgorithmsExamples */ = {
+			isa = PBXGroup;
+			children = (
+				86C5147D18F80E5A00B5E9AE /* main.m */,
+				86C5148118F80E5A00B5E9AE /* EKAlgorithmsApp.1 */,
+				86C5147F18F80E5A00B5E9AE /* Supporting Files */,
+			);
+			name = EKAlgorithmsExamples;
+			path = EKAlgorithmsApp;
+			sourceTree = "<group>";
+		};
+		86C5147F18F80E5A00B5E9AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86C5148018F80E5A00B5E9AE /* EKAlgorithmsApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86C5148F18F80E8000B5E9AE /* EKAlgorithmsSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				86C5149018F80E8000B5E9AE /* Supporting Files */,
+			);
+			path = EKAlgorithmsSpecs;
+			sourceTree = "<group>";
+		};
+		86C5149018F80E8000B5E9AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86C5149118F80E8000B5E9AE /* EKAlgorithmsSpecs-Info.plist */,
+				86C5149218F80E8000B5E9AE /* InfoPlist.strings */,
+				86C5149718F80E8000B5E9AE /* EKAlgorithmsSpecs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86C5158518F8162F00B5E9AE /* EKAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				86C5158618F8162F00B5E9AE /* Data Structures */,
+				86C515B018F8162F00B5E9AE /* EKRecursionStuff.h */,
+				86C515B118F8162F00B5E9AE /* EKRecursionStuff.m */,
+				86C515B218F8162F00B5E9AE /* Geometry */,
+				86C515B818F8162F00B5E9AE /* NSArray+EKStuff.h */,
+				86C515B918F8162F00B5E9AE /* NSArray+EKStuff.m */,
+				86C515BA18F8162F00B5E9AE /* NSDictionary+EKStuff.h */,
+				86C515BB18F8162F00B5E9AE /* NSDictionary+EKStuff.m */,
+				86C515BC18F8162F00B5E9AE /* NSNumber+EKStuff.h */,
+				86C515BD18F8162F00B5E9AE /* NSNumber+EKStuff.m */,
+				86C515BE18F8162F00B5E9AE /* NSString+EKStuff.h */,
+				86C515BF18F8162F00B5E9AE /* NSString+EKStuff.m */,
+				86C515C018F8162F00B5E9AE /* Problems */,
+				86C515C318F8162F00B5E9AE /* Selection */,
+				86C515C618F8162F00B5E9AE /* Sorting */,
+			);
+			name = EKAlgorithms;
+			path = ../EKAlgorithms;
+			sourceTree = "<group>";
+		};
+		86C5158618F8162F00B5E9AE /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				86C5158718F8162F00B5E9AE /* AVLTree */,
+				86C5158C18F8162F00B5E9AE /* BinarySearchTree */,
+				86C5159218F8162F00B5E9AE /* BinaryTree */,
+				86C5159518F8162F00B5E9AE /* EKBHeap.h */,
+				86C5159618F8162F00B5E9AE /* EKBHeap.m */,
+				86C5159718F8162F00B5E9AE /* EKDeque.h */,
+				86C5159818F8162F00B5E9AE /* EKDeque.m */,
+				86C5159918F8162F00B5E9AE /* EKQueue.h */,
+				86C5159A18F8162F00B5E9AE /* EKQueue.m */,
+				86C5159B18F8162F00B5E9AE /* EKStack.h */,
+				86C5159C18F8162F00B5E9AE /* EKStack.m */,
+				86C5159D18F8162F00B5E9AE /* Graph */,
+				86C515A618F8162F00B5E9AE /* LinkedList */,
+				86C515AB18F8162F00B5E9AE /* Tree */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		86C5158718F8162F00B5E9AE /* AVLTree */ = {
+			isa = PBXGroup;
+			children = (
+				86C5158818F8162F00B5E9AE /* EKAVLTree.h */,
+				86C5158918F8162F00B5E9AE /* EKAVLTree.m */,
+				86C5158A18F8162F00B5E9AE /* EKAVLTreeNode.h */,
+				86C5158B18F8162F00B5E9AE /* EKAVLTreeNode.m */,
+			);
+			path = AVLTree;
+			sourceTree = "<group>";
+		};
+		86C5158C18F8162F00B5E9AE /* BinarySearchTree */ = {
+			isa = PBXGroup;
+			children = (
+				86C5158D18F8162F00B5E9AE /* EKBSTree.h */,
+				86C5158E18F8162F00B5E9AE /* EKBSTree.m */,
+				86C5158F18F8162F00B5E9AE /* EKBSTree.png */,
+				86C5159018F8162F00B5E9AE /* EKBTreeNode.h */,
+				86C5159118F8162F00B5E9AE /* EKBTreeNode.m */,
+			);
+			path = BinarySearchTree;
+			sourceTree = "<group>";
+		};
+		86C5159218F8162F00B5E9AE /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				86C5159318F8162F00B5E9AE /* EKBTree.h */,
+				86C5159418F8162F00B5E9AE /* EKBTree.m */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
+		86C5159D18F8162F00B5E9AE /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				86C5159E18F8162F00B5E9AE /* EKEdge.h */,
+				86C5159F18F8162F00B5E9AE /* EKEdge.m */,
+				86C515A018F8162F00B5E9AE /* EKGraph.h */,
+				86C515A118F8162F00B5E9AE /* EKGraph.m */,
+				86C515A218F8162F00B5E9AE /* EKGraphPicture.png */,
+				86C515A318F8162F00B5E9AE /* EKTopsort.png */,
+				86C515A418F8162F00B5E9AE /* EKVertex.h */,
+				86C515A518F8162F00B5E9AE /* EKVertex.m */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		86C515A618F8162F00B5E9AE /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				86C515A718F8162F00B5E9AE /* EKLinkedList.h */,
+				86C515A818F8162F00B5E9AE /* EKLinkedList.m */,
+				86C515A918F8162F00B5E9AE /* EKNode.h */,
+				86C515AA18F8162F00B5E9AE /* EKNode.m */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		86C515AB18F8162F00B5E9AE /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				86C515AC18F8162F00B5E9AE /* EKTree.h */,
+				86C515AD18F8162F00B5E9AE /* EKTree.m */,
+				86C515AE18F8162F00B5E9AE /* EKTreeNode.h */,
+				86C515AF18F8162F00B5E9AE /* EKTreeNode.m */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		86C515B218F8162F00B5E9AE /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				86C515B318F8162F00B5E9AE /* EKALocation.h */,
+				86C515B418F8162F00B5E9AE /* EKALocation.m */,
+				86C515B518F8162F00B5E9AE /* EKGeometry.h */,
+				86C515B618F8162F00B5E9AE /* NSArray+EKGeometry.h */,
+				86C515B718F8162F00B5E9AE /* NSArray+EKGeometry.m */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		86C515C018F8162F00B5E9AE /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				86C515C118F8162F00B5E9AE /* JosephusProblem.h */,
+				86C515C218F8162F00B5E9AE /* ModuloBias.h */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+		86C515C318F8162F00B5E9AE /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				86C515C418F8162F00B5E9AE /* NSArray+Selection.h */,
+				86C515C518F8162F00B5E9AE /* NSArray+Selection.m */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		86C515C618F8162F00B5E9AE /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				86C515C718F8162F00B5E9AE /* NSArray+EKSorting.h */,
+				86C515C818F8162F00B5E9AE /* NSArray+EKSorting.m */,
+				8F0E298419015E3A00CC3934 /* RadixNode.h */,
+				8F0E298519015E3A00CC3934 /* RadixNode.m */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		86EBBC0218F82B2F00F888C3 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				86EBBC0318F82B2F00F888C3 /* GeometrySpecs.m */,
+				86EBBC0418F82B2F00F888C3 /* NSArray.m */,
+				86EBBC0518F82B2F00F888C3 /* NSNumber.m */,
+				86EBBC0618F82B2F00F888C3 /* ProblemsSpecs.m */,
+				86EBBC0718F82B2F00F888C3 /* SortingSpecs.m */,
+				86EBBC0818F82B2F00F888C3 /* SpecHelpers.h */,
+			);
+			name = Specs;
+			path = ../Specs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86C5147618F80E5A00B5E9AE /* EKAlgorithmsExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C5148518F80E5A00B5E9AE /* Build configuration list for PBXNativeTarget "EKAlgorithmsExamples" */;
+			buildPhases = (
+				86C5147318F80E5A00B5E9AE /* Sources */,
+				86C5147418F80E5A00B5E9AE /* Frameworks */,
+				86C5147518F80E5A00B5E9AE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EKAlgorithmsExamples;
+			productName = EKAlgorithmsApp;
+			productReference = 86C5147718F80E5A00B5E9AE /* EKAlgorithmsExamples */;
+			productType = "com.apple.product-type.tool";
+		};
+		86C5148B18F80E8000B5E9AE /* EKAlgorithmsSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C5149818F80E8000B5E9AE /* Build configuration list for PBXNativeTarget "EKAlgorithmsSpecs" */;
+			buildPhases = (
+				CD07AE7D54A544F49B2B0BE6 /* Check Pods Manifest.lock */,
+				86C5148818F80E8000B5E9AE /* Sources */,
+				86C5148918F80E8000B5E9AE /* Frameworks */,
+				86C5148A18F80E8000B5E9AE /* Resources */,
+				049C522FE2A846DEA6978B29 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EKAlgorithmsSpecs;
+			productName = EKAlgorithmsSpecs;
+			productReference = 86C5148C18F80E8000B5E9AE /* EKAlgorithmsSpecs.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86C5146F18F80E5A00B5E9AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Evgeny Karkan";
+			};
+			buildConfigurationList = 86C5147218F80E5A00B5E9AE /* Build configuration list for PBXProject "EKAlgorithmsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86C5146E18F80E5A00B5E9AE;
+			productRefGroup = 86C5147818F80E5A00B5E9AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C5147618F80E5A00B5E9AE /* EKAlgorithmsExamples */,
+				86C5148B18F80E8000B5E9AE /* EKAlgorithmsSpecs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86C5148A18F80E8000B5E9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C515E018F8162F00B5E9AE /* EKGraphPicture.png in Resources */,
+				86C515CF18F8162F00B5E9AE /* EKBSTree.png in Resources */,
+				86C5149418F80E8000B5E9AE /* InfoPlist.strings in Resources */,
+				86C515E118F8162F00B5E9AE /* EKTopsort.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		049C522FE2A846DEA6978B29 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-EKAlgorithmsSpecs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD07AE7D54A544F49B2B0BE6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86C5147318F80E5A00B5E9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C515D618F8162F00B5E9AE /* EKDeque.m in Sources */,
+				86C515D818F8162F00B5E9AE /* EKQueue.m in Sources */,
+				8F0E298619015E3A00CC3934 /* RadixNode.m in Sources */,
+				86C515F018F8162F00B5E9AE /* NSArray+EKGeometry.m in Sources */,
+				86C515D418F8162F00B5E9AE /* EKBHeap.m in Sources */,
+				86C515E818F8162F00B5E9AE /* EKTree.m in Sources */,
+				86C5147E18F80E5A00B5E9AE /* main.m in Sources */,
+				86C515E618F8162F00B5E9AE /* EKNode.m in Sources */,
+				86C515DA18F8162F00B5E9AE /* EKStack.m in Sources */,
+				86C515F818F8162F00B5E9AE /* NSString+EKStuff.m in Sources */,
+				86C515EE18F8162F00B5E9AE /* EKALocation.m in Sources */,
+				86C515C918F8162F00B5E9AE /* EKAVLTree.m in Sources */,
+				86C515CD18F8162F00B5E9AE /* EKBSTree.m in Sources */,
+				86C515F418F8162F00B5E9AE /* NSDictionary+EKStuff.m in Sources */,
+				86C515D018F8162F00B5E9AE /* EKBTreeNode.m in Sources */,
+				86C515D218F8162F00B5E9AE /* EKBTree.m in Sources */,
+				86C515DC18F8162F00B5E9AE /* EKEdge.m in Sources */,
+				86C515DE18F8162F00B5E9AE /* EKGraph.m in Sources */,
+				86C515FC18F8162F00B5E9AE /* NSArray+EKSorting.m in Sources */,
+				86C515EC18F8162F00B5E9AE /* EKRecursionStuff.m in Sources */,
+				86C515F218F8162F00B5E9AE /* NSArray+EKStuff.m in Sources */,
+				86C515E218F8162F00B5E9AE /* EKVertex.m in Sources */,
+				86C515F618F8162F00B5E9AE /* NSNumber+EKStuff.m in Sources */,
+				86C515FA18F8162F00B5E9AE /* NSArray+Selection.m in Sources */,
+				86C515E418F8162F00B5E9AE /* EKLinkedList.m in Sources */,
+				86C515CB18F8162F00B5E9AE /* EKAVLTreeNode.m in Sources */,
+				86C515EA18F8162F00B5E9AE /* EKTreeNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C5148818F80E8000B5E9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C515D118F8162F00B5E9AE /* EKBTreeNode.m in Sources */,
+				8F0E298719015E3A00CC3934 /* RadixNode.m in Sources */,
+				86C515CE18F8162F00B5E9AE /* EKBSTree.m in Sources */,
+				86EBBC0E18F82B3A00F888C3 /* GeometrySpecs.m in Sources */,
+				86C515D718F8162F00B5E9AE /* EKDeque.m in Sources */,
+				86C515CC18F8162F00B5E9AE /* EKAVLTreeNode.m in Sources */,
+				86EBBC0F18F82B3A00F888C3 /* NSArray.m in Sources */,
+				86C515FB18F8162F00B5E9AE /* NSArray+Selection.m in Sources */,
+				86C515F118F8162F00B5E9AE /* NSArray+EKGeometry.m in Sources */,
+				86C515DF18F8162F00B5E9AE /* EKGraph.m in Sources */,
+				86C515DB18F8162F00B5E9AE /* EKStack.m in Sources */,
+				86C515DD18F8162F00B5E9AE /* EKEdge.m in Sources */,
+				86C515EB18F8162F00B5E9AE /* EKTreeNode.m in Sources */,
+				86C515E518F8162F00B5E9AE /* EKLinkedList.m in Sources */,
+				86C515D318F8162F00B5E9AE /* EKBTree.m in Sources */,
+				86C515D918F8162F00B5E9AE /* EKQueue.m in Sources */,
+				86C515E318F8162F00B5E9AE /* EKVertex.m in Sources */,
+				86C515D518F8162F00B5E9AE /* EKBHeap.m in Sources */,
+				86EBBC1218F82B3A00F888C3 /* SortingSpecs.m in Sources */,
+				86C515E918F8162F00B5E9AE /* EKTree.m in Sources */,
+				86C515F918F8162F00B5E9AE /* NSString+EKStuff.m in Sources */,
+				86C515CA18F8162F00B5E9AE /* EKAVLTree.m in Sources */,
+				86C515F318F8162F00B5E9AE /* NSArray+EKStuff.m in Sources */,
+				86C515E718F8162F00B5E9AE /* EKNode.m in Sources */,
+				86C515FD18F8162F00B5E9AE /* NSArray+EKSorting.m in Sources */,
+				86C515ED18F8162F00B5E9AE /* EKRecursionStuff.m in Sources */,
+				86C515EF18F8162F00B5E9AE /* EKALocation.m in Sources */,
+				86C515F518F8162F00B5E9AE /* NSDictionary+EKStuff.m in Sources */,
+				86C515F718F8162F00B5E9AE /* NSNumber+EKStuff.m in Sources */,
+				86EBBC1118F82B3A00F888C3 /* ProblemsSpecs.m in Sources */,
+				86EBBC1018F82B3A00F888C3 /* NSNumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86C5149218F80E8000B5E9AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C5149318F80E8000B5E9AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86C5148318F80E5A00B5E9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		86C5148418F80E5A00B5E9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		86C5148618F80E5A00B5E9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKAlgorithmsApp/EKAlgorithmsApp-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86C5148718F80E5A00B5E9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKAlgorithmsApp/EKAlgorithmsApp-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86C5149918F80E8000B5E9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF81BD80824A41FB97720C8E /* Pods-EKAlgorithmsSpecs.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKAlgorithmsSpecs/EKAlgorithmsSpecs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EKAlgorithmsSpecs/EKAlgorithmsSpecs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		86C5149A18F80E8000B5E9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF81BD80824A41FB97720C8E /* Pods-EKAlgorithmsSpecs.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKAlgorithmsSpecs/EKAlgorithmsSpecs-Prefix.pch";
+				INFOPLIST_FILE = "EKAlgorithmsSpecs/EKAlgorithmsSpecs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86C5147218F80E5A00B5E9AE /* Build configuration list for PBXProject "EKAlgorithmsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C5148318F80E5A00B5E9AE /* Debug */,
+				86C5148418F80E5A00B5E9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C5148518F80E5A00B5E9AE /* Build configuration list for PBXNativeTarget "EKAlgorithmsExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C5148618F80E5A00B5E9AE /* Debug */,
+				86C5148718F80E5A00B5E9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C5149818F80E8000B5E9AE /* Build configuration list for PBXNativeTarget "EKAlgorithmsSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C5149918F80E8000B5E9AE /* Debug */,
+				86C5149A18F80E8000B5E9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86C5146F18F80E5A00B5E9AE /* Project object */;
+}

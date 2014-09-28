@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A28CBCDD1987DE7C00174678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28CBCDC1987DE7C00174678 /* Foundation.framework */; };
+		A28CBCDF1987DE7C00174678 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28CBCDE1987DE7C00174678 /* CoreGraphics.framework */; };
+		A28CBCE11987DE7C00174678 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28CBCE01987DE7C00174678 /* UIKit.framework */; };
+		A28CBCE71987DE7C00174678 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A28CBCE51987DE7C00174678 /* InfoPlist.strings */; };
+		A28CBCE91987DE7C00174678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A28CBCE81987DE7C00174678 /* main.m */; };
+		A28CBCED1987DE7C00174678 /* AALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A28CBCEC1987DE7C00174678 /* AALAppDelegate.m */; };
+		A28CBCF01987DE7C00174678 /* AALMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28CBCEE1987DE7C00174678 /* AALMain.storyboard */; };
+		A28CBCF31987DE7C00174678 /* AALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28CBCF21987DE7C00174678 /* AALViewController.m */; };
+		A28CBCF51987DE7C00174678 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28CBCF41987DE7C00174678 /* Images.xcassets */; };
+		A28CBCFC1987DE7C00174678 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28CBCFB1987DE7C00174678 /* XCTest.framework */; };
+		A28CBCFD1987DE7C00174678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28CBCDC1987DE7C00174678 /* Foundation.framework */; };
+		A28CBCFE1987DE7C00174678 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28CBCE01987DE7C00174678 /* UIKit.framework */; };
+		A28CBD061987DE7C00174678 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A28CBD041987DE7C00174678 /* InfoPlist.strings */; };
+		A28CBD081987DE7C00174678 /* InterestsScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28CBD071987DE7C00174678 /* InterestsScrollViewTests.m */; };
+		A28CBD131988420C00174678 /* AALCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A28CBD121988420C00174678 /* AALCategory.m */; };
+		A28CBD16198842CE00174678 /* AALInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = A28CBD15198842CE00174678 /* AALInterest.m */; };
+		A28CBD1919885D0600174678 /* AALTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28CBD1819885D0600174678 /* AALTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A28CBCFF1987DE7C00174678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28CBCD11987DE7C00174678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28CBCD81987DE7C00174678;
+			remoteInfo = InterestsScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A28CBCD91987DE7C00174678 /* InterestsScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterestsScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28CBCDC1987DE7C00174678 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A28CBCDE1987DE7C00174678 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A28CBCE01987DE7C00174678 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A28CBCE41987DE7C00174678 /* InterestsScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InterestsScrollView-Info.plist"; sourceTree = "<group>"; };
+		A28CBCE61987DE7C00174678 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A28CBCE81987DE7C00174678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A28CBCEA1987DE7C00174678 /* InterestsScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InterestsScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		A28CBCEB1987DE7C00174678 /* AALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALAppDelegate.h; sourceTree = "<group>"; };
+		A28CBCEC1987DE7C00174678 /* AALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALAppDelegate.m; sourceTree = "<group>"; };
+		A28CBCEF1987DE7C00174678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AALMain.storyboard; sourceTree = "<group>"; };
+		A28CBCF11987DE7C00174678 /* AALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALViewController.h; sourceTree = "<group>"; };
+		A28CBCF21987DE7C00174678 /* AALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALViewController.m; sourceTree = "<group>"; };
+		A28CBCF41987DE7C00174678 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A28CBCFA1987DE7C00174678 /* InterestsScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterestsScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28CBCFB1987DE7C00174678 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A28CBD031987DE7C00174678 /* InterestsScrollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InterestsScrollViewTests-Info.plist"; sourceTree = "<group>"; };
+		A28CBD051987DE7C00174678 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A28CBD071987DE7C00174678 /* InterestsScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterestsScrollViewTests.m; sourceTree = "<group>"; };
+		A28CBD111988420C00174678 /* AALCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALCategory.h; sourceTree = "<group>"; };
+		A28CBD121988420C00174678 /* AALCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALCategory.m; sourceTree = "<group>"; };
+		A28CBD14198842CE00174678 /* AALInterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALInterest.h; sourceTree = "<group>"; };
+		A28CBD15198842CE00174678 /* AALInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALInterest.m; sourceTree = "<group>"; };
+		A28CBD1719885D0600174678 /* AALTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALTestViewController.h; sourceTree = "<group>"; };
+		A28CBD1819885D0600174678 /* AALTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALTestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28CBCD61987DE7C00174678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28CBCDF1987DE7C00174678 /* CoreGraphics.framework in Frameworks */,
+				A28CBCE11987DE7C00174678 /* UIKit.framework in Frameworks */,
+				A28CBCDD1987DE7C00174678 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28CBCF71987DE7C00174678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28CBCFC1987DE7C00174678 /* XCTest.framework in Frameworks */,
+				A28CBCFE1987DE7C00174678 /* UIKit.framework in Frameworks */,
+				A28CBCFD1987DE7C00174678 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A28CBCD01987DE7C00174678 = {
+			isa = PBXGroup;
+			children = (
+				A28CBCE21987DE7C00174678 /* InterestsScrollView */,
+				A28CBD011987DE7C00174678 /* InterestsScrollViewTests */,
+				A28CBCDB1987DE7C00174678 /* Frameworks */,
+				A28CBCDA1987DE7C00174678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A28CBCDA1987DE7C00174678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28CBCD91987DE7C00174678 /* InterestsScrollView.app */,
+				A28CBCFA1987DE7C00174678 /* InterestsScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A28CBCDB1987DE7C00174678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A28CBCDC1987DE7C00174678 /* Foundation.framework */,
+				A28CBCDE1987DE7C00174678 /* CoreGraphics.framework */,
+				A28CBCE01987DE7C00174678 /* UIKit.framework */,
+				A28CBCFB1987DE7C00174678 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A28CBCE21987DE7C00174678 /* InterestsScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A28CBCEB1987DE7C00174678 /* AALAppDelegate.h */,
+				A28CBCEC1987DE7C00174678 /* AALAppDelegate.m */,
+				A28CBCEE1987DE7C00174678 /* AALMain.storyboard */,
+				A28CBD1719885D0600174678 /* AALTestViewController.h */,
+				A28CBD1819885D0600174678 /* AALTestViewController.m */,
+				A28CBD111988420C00174678 /* AALCategory.h */,
+				A28CBD121988420C00174678 /* AALCategory.m */,
+				A28CBD14198842CE00174678 /* AALInterest.h */,
+				A28CBD15198842CE00174678 /* AALInterest.m */,
+				A28CBCF11987DE7C00174678 /* AALViewController.h */,
+				A28CBCF21987DE7C00174678 /* AALViewController.m */,
+				A28CBCF41987DE7C00174678 /* Images.xcassets */,
+				A28CBCE31987DE7C00174678 /* Supporting Files */,
+			);
+			path = InterestsScrollView;
+			sourceTree = "<group>";
+		};
+		A28CBCE31987DE7C00174678 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A28CBCE41987DE7C00174678 /* InterestsScrollView-Info.plist */,
+				A28CBCE51987DE7C00174678 /* InfoPlist.strings */,
+				A28CBCE81987DE7C00174678 /* main.m */,
+				A28CBCEA1987DE7C00174678 /* InterestsScrollView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A28CBD011987DE7C00174678 /* InterestsScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A28CBD071987DE7C00174678 /* InterestsScrollViewTests.m */,
+				A28CBD021987DE7C00174678 /* Supporting Files */,
+			);
+			path = InterestsScrollViewTests;
+			sourceTree = "<group>";
+		};
+		A28CBD021987DE7C00174678 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A28CBD031987DE7C00174678 /* InterestsScrollViewTests-Info.plist */,
+				A28CBD041987DE7C00174678 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A28CBCD81987DE7C00174678 /* InterestsScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28CBD0B1987DE7C00174678 /* Build configuration list for PBXNativeTarget "InterestsScrollView" */;
+			buildPhases = (
+				A28CBCD51987DE7C00174678 /* Sources */,
+				A28CBCD61987DE7C00174678 /* Frameworks */,
+				A28CBCD71987DE7C00174678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterestsScrollView;
+			productName = InterestsScrollView;
+			productReference = A28CBCD91987DE7C00174678 /* InterestsScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A28CBCF91987DE7C00174678 /* InterestsScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28CBD0E1987DE7C00174678 /* Build configuration list for PBXNativeTarget "InterestsScrollViewTests" */;
+			buildPhases = (
+				A28CBCF61987DE7C00174678 /* Sources */,
+				A28CBCF71987DE7C00174678 /* Frameworks */,
+				A28CBCF81987DE7C00174678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28CBD001987DE7C00174678 /* PBXTargetDependency */,
+			);
+			name = InterestsScrollViewTests;
+			productName = InterestsScrollViewTests;
+			productReference = A28CBCFA1987DE7C00174678 /* InterestsScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A28CBCD11987DE7C00174678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AAL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Albert Lardizabal";
+				TargetAttributes = {
+					A28CBCF91987DE7C00174678 = {
+						TestTargetID = A28CBCD81987DE7C00174678;
+					};
+				};
+			};
+			buildConfigurationList = A28CBCD41987DE7C00174678 /* Build configuration list for PBXProject "InterestsScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A28CBCD01987DE7C00174678;
+			productRefGroup = A28CBCDA1987DE7C00174678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28CBCD81987DE7C00174678 /* InterestsScrollView */,
+				A28CBCF91987DE7C00174678 /* InterestsScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A28CBCD71987DE7C00174678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28CBCF51987DE7C00174678 /* Images.xcassets in Resources */,
+				A28CBCE71987DE7C00174678 /* InfoPlist.strings in Resources */,
+				A28CBCF01987DE7C00174678 /* AALMain.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28CBCF81987DE7C00174678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28CBD061987DE7C00174678 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A28CBCD51987DE7C00174678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28CBD131988420C00174678 /* AALCategory.m in Sources */,
+				A28CBD1919885D0600174678 /* AALTestViewController.m in Sources */,
+				A28CBCE91987DE7C00174678 /* main.m in Sources */,
+				A28CBD16198842CE00174678 /* AALInterest.m in Sources */,
+				A28CBCED1987DE7C00174678 /* AALAppDelegate.m in Sources */,
+				A28CBCF31987DE7C00174678 /* AALViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28CBCF61987DE7C00174678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28CBD081987DE7C00174678 /* InterestsScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A28CBD001987DE7C00174678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28CBCD81987DE7C00174678 /* InterestsScrollView */;
+			targetProxy = A28CBCFF1987DE7C00174678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A28CBCE51987DE7C00174678 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28CBCE61987DE7C00174678 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A28CBCEE1987DE7C00174678 /* AALMain.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28CBCEF1987DE7C00174678 /* Base */,
+			);
+			name = AALMain.storyboard;
+			sourceTree = "<group>";
+		};
+		A28CBD041987DE7C00174678 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28CBD051987DE7C00174678 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A28CBD091987DE7C00174678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A28CBD0A1987DE7C00174678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A28CBD0C1987DE7C00174678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterestsScrollView/InterestsScrollView-Prefix.pch";
+				INFOPLIST_FILE = "InterestsScrollView/InterestsScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A28CBD0D1987DE7C00174678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterestsScrollView/InterestsScrollView-Prefix.pch";
+				INFOPLIST_FILE = "InterestsScrollView/InterestsScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A28CBD0F1987DE7C00174678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InterestsScrollView.app/InterestsScrollView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterestsScrollView/InterestsScrollView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "InterestsScrollViewTests/InterestsScrollViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A28CBD101987DE7C00174678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InterestsScrollView.app/InterestsScrollView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterestsScrollView/InterestsScrollView-Prefix.pch";
+				INFOPLIST_FILE = "InterestsScrollViewTests/InterestsScrollViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A28CBCD41987DE7C00174678 /* Build configuration list for PBXProject "InterestsScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28CBD091987DE7C00174678 /* Debug */,
+				A28CBD0A1987DE7C00174678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28CBD0B1987DE7C00174678 /* Build configuration list for PBXNativeTarget "InterestsScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28CBD0C1987DE7C00174678 /* Debug */,
+				A28CBD0D1987DE7C00174678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28CBD0E1987DE7C00174678 /* Build configuration list for PBXNativeTarget "InterestsScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28CBD0F1987DE7C00174678 /* Debug */,
+				A28CBD101987DE7C00174678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A28CBCD11987DE7C00174678 /* Project object */;
+}
