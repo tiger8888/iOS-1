@@ -13,8 +13,6 @@ xcuserdata
 *.xccheckout
 *.moved-aside
 DerivedData
-Docs
-FISConstants.m
 *.hmap
 *.ipa
 *.xcuserstate
